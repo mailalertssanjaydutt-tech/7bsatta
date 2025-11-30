@@ -7,7 +7,7 @@ export default function GroupTable({ groupName }) {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
-  // Safe value extraction function
+  // Helper function to safely extract display value
   const getDisplayValue = (item) => {
     if (typeof item === 'object' && item !== null && item.value !== undefined) {
       return item.value;
@@ -27,7 +27,7 @@ export default function GroupTable({ groupName }) {
         setGroup(res.data);
         setError(null);
       } catch (err) {
-        console.error("Error fetching group:", err);
+        console.error(err);
         setError("Failed to load group data");
         setGroup(null);
       } finally {
@@ -102,20 +102,21 @@ export default function GroupTable({ groupName }) {
                       </th>
                     </tr>
                   </thead>
-                  <tbody>
-                    {group.games.map((game, idx) => (
-                      <tr key={game._id || idx}>
+
+                  {group.games.map((game, idx) => (
+                    <tbody key={idx}>
+                      <tr>
                         <td className="foryellow">
                           <Link
                             className="gamenameeach"
-                            to={`/${(game.name || "")
+                            to={`/${game.name
                               .toLowerCase()
                               .replace(/\s+/g, "-")}`}
                           >
-                            {game.name || "Unnamed Game"}
+                            {game.name}
                           </Link>
                           <br />
-                          {game.resultTime12h || ""}
+                          {game.resultTime12h}
                           <br />
                         </td>
                         <td className="yesterday-number">
@@ -155,11 +156,7 @@ export default function GroupTable({ groupName }) {
                                   maxWidth: "100%",
                                 }}
                               >
-                                <img 
-                                  alt="wait icon" 
-                                  src="images/d.gif" 
-                                  style={{ display: 'block', maxWidth: '100%' }}
-                                />
+                                <img alt="wait icon" src="images/d.gif" />
                               </span>
                             ) : (
                               getDisplayValue(game.todayNumber)
@@ -167,8 +164,8 @@ export default function GroupTable({ groupName }) {
                           </div>
                         </td>
                       </tr>
-                    ))}
-                  </tbody>
+                    </tbody>
+                  ))}
                 </table>
               </div>
             </div>

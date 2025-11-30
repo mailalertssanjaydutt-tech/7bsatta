@@ -25,6 +25,7 @@ const Home = () => {
         const res = await api.get("/games");
         if (cancelled) return;
         setGames(res.data);
+        console.log("Fetched games:", res.data);
         if (res.data.length > 0) setSelectedGame(res.data[0].name);
       } catch (err) {
         console.error("Failed to fetch games:", err);

@@ -7,7 +7,7 @@ export default function MonthlyGroupTable({ groupName }) {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
-  // Function to safely extract display value from object or string
+  // Helper function to safely extract display value
   const getDisplayValue = (item) => {
     if (typeof item === 'object' && item !== null && item.value !== undefined) {
       return item.value;
@@ -24,6 +24,8 @@ export default function MonthlyGroupTable({ groupName }) {
         const res = await api.get(`/group/name/${groupName}/monthly`);
         const data = res.data?.tableData || [];
         setTableData(data);
+
+        // Extract columns dynamically from first object keys (excluding "date")
         if (data.length > 0) {
           const cols = Object.keys(data[0]).filter((key) => key !== "date");
           setColumns(cols);
@@ -94,16 +96,13 @@ export default function MonthlyGroupTable({ groupName }) {
                       <td className="forfirtcolor text-center">
                         <span className="fon">{row.date}</span>
                       </td>
-                      {columns.map((col, i) => {
-                        const displayValue = getDisplayValue(row[col]);
-                        return (
-                          <td key={i}>
-                            <span className="table_chart_section_02">
-                              {displayValue}
-                            </span>
-                          </td>
-                        );
-                      })}
+                      {columns.map((col, i) => (
+                        <td key={i}>
+                          <span className="table_chart_section_02">
+                            {getDisplayValue(row[col])}
+                          </span>
+                        </td>
+                      ))}
                     </tr>
                   ))}
                 </tbody>
