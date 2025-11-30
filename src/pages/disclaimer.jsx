@@ -152,11 +152,11 @@ const Disclaimer = () => {
       please contact us at:
     </p>
     <p>
-      📧 support@a7satta.ind.in
+      📧 support@a7satta.vip
       <br /> 🌐
-      <a target='_blank' href="https://www.a7satta.ind.in/">
+      <a target='_blank' href="https://www.a7satta.vip/">
         {" "}
-        <strong>https://www.a7satta.ind.in</strong>
+        <strong>https://www.a7satta.vip</strong>
       </a>
     </p>
     <h2>
