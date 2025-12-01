@@ -45,197 +45,101 @@ const Home = () => {
     navigate(`/${gameSlug}?year=${selectedYear}`);
   };
 
-  /**
-   * UpcomingResults component
-   * - props: games (array from /games), loading (bool)
-   * - shows two stacked cards (same UI as original GALI block)
-   * - determines next two upcoming games using IST time
-   * - for each game calls /result/:name to get latestResult
-   */
-  const UpcomingResults = ({ games = [], loading }) => {
-    const [cards, setCards] = useState([
-      { name: "", resultTime: "--", latestResult: null, loading: true },
-      { name: "", resultTime: "--", latestResult: null, loading: true },
-    ]);
-    const intervalRef = useRef(null);
-    const mountedRef = useRef(false);
+const UpcomingResults = ({ loadingInitial }) => {
+  const [cards, setCards] = useState(
+    new Array(3).fill(null).map(() => ({ name: "", resultTime: "--", latestResult: null, minutesUntil: null, loading: true }))
+  );
+  const mountedRef = useRef(false);
+  const intervalRef = useRef(null);
+  const controllerRef = useRef(null);
 
-    // Utility: get current IST time as Date object
-    const getNowIST = () => {
-      const now = new Date();
-      const nowUtc = new Date(now.getTime() + now.getTimezoneOffset() * 60000);
-      // IST is UTC+5:30 -> 5.5 * 3600000 ms
-      const nowIst = new Date(nowUtc.getTime() + 5.5 * 3600000);
-      return nowIst;
-    };
+  const fetchOnce = async () => {
+    try {
+      if (controllerRef.current) controllerRef.current.abort();
+      controllerRef.current = new AbortController();
+      const r = await api.get("/upcoming?limit=5", { signal: controllerRef.current.signal });
+      const data = r.data;
+      if (!mountedRef.current) return;
 
-    // Utility: compute next occurrence Date (in IST) for a "HH:mm" string
-    const nextOccurrenceIST = (timeStr) => {
-      const nowIst = getNowIST();
-      const [hh, mm] = timeStr.split(":").map((x) => parseInt(x, 10));
-      let candidate = new Date(
-        nowIst.getFullYear(),
-        nowIst.getMonth(),
-        nowIst.getDate(),
-        hh,
-        mm,
-        0,
-        0
-      );
-      // If candidate is in the past or equal to now, set to tomorrow
-      if (candidate <= nowIst) {
-        candidate = new Date(candidate.getTime() + 24 * 60 * 60 * 1000);
+      if (Array.isArray(data.cards)) {
+        const mapped = data.cards.map(c => ({
+          name: c.name || "—",
+          resultTime: c.resultTime || "--",
+          latestResult: c.latestResult ?? null,
+          minutesUntil: c.minutesUntil ?? null,
+          loading: false
+        }));
+        // ensure exactly 3
+        while (mapped.length < 3) mapped.push({ name: "--", resultTime: "--", latestResult: null, minutesUntil: null, loading: false });
+        setCards(mapped.slice(0,3));
+      } else {
+        // fallback: clear
+        setCards(new Array(3).fill(null).map(() => ({ name: "--", resultTime: "--", latestResult: null, minutesUntil: null, loading: false })));
       }
-      return candidate;
-    };
-
-    // Pick next two upcoming games and fetch their results
-    const computeAndFetch = async () => {
-      if (!games || games.length === 0) {
-        setCards([
-          { name: "", resultTime: "--", latestResult: null, loading: false },
-          { name: "", resultTime: "--", latestResult: null, loading: false },
-        ]);
-        return;
+    } catch (err) {
+      if (err.name === "CanceledError" || err.name === "AbortError") {
+        // aborted; ignore
+      } else {
+        console.warn("Upcoming fetch failed", err);
+        // keep prior state or show fallback
       }
+    }
+  };
 
-      // Map games to nextOccurrence (IST)
-      const mapped = games.map((g) => {
-        const nextOcc = nextOccurrenceIST(g.resultTime);
-        return {
-          ...g,
-          nextOcc, // Date object in IST representing next occurrence
-        };
-      });
-
-      // Sort ascending by nextOcc
-      mapped.sort((a, b) => a.nextOcc - b.nextOcc);
-
-      // Pick top 2
-      const topTwo = mapped.slice(0, 2);
-
-      // If less than 2 (unlikely), pad with blanks
-      while (topTwo.length < 2) {
-        topTwo.push({ name: "", resultTime: "--", nextOcc: null });
-      }
-
-      // Prepare UI placeholder while fetching results
-      setCards(
-        topTwo.map((g) => ({
-          name: g.name || "",
-          resultTime: g.resultTime || "--",
-          latestResult: null,
-          loading: true,
-        }))
-      );
-
-      // For each selected game, call /result/:gameName
-      const fetched = await Promise.all(
-        topTwo.map(async (g) => {
-          if (!g.name) {
-            return {
-              name: "",
-              resultTime: g.resultTime || "--",
-              latestResult: null,
-              loading: false,
-            };
-          }
-          try {
-            const res = await api.get(`/result/${encodeURIComponent(g.name)}`);
-            // Expecting { game, latestResult, previousResult, resultTime }
-            const data = res.data || {};
-            return {
-              name: g.name,
-              resultTime: data.resultTime || g.resultTime || "--",
-              latestResult: data.latestResult ?? null,
-              loading: false,
-            };
-          } catch (err) {
-            console.error("Failed to fetch result for", g.name, err);
-            return {
-              name: g.name,
-              resultTime: g.resultTime || "--",
-              latestResult: null,
-              loading: false,
-            };
-          }
-        })
-      );
-
-      // Update UI
-      setCards(fetched);
+  useEffect(() => {
+    mountedRef.current = true;
+    fetchOnce();
+    intervalRef.current = setInterval(fetchOnce, 30000);
+    return () => {
+      mountedRef.current = false;
+      if (intervalRef.current) clearInterval(intervalRef.current);
+      if (controllerRef.current) controllerRef.current.abort();
     };
+  }, []); // no dependency on games; server makes decisions
 
-    // Run computeAndFetch initially and set polling
-    useEffect(() => {
-      // avoid running twice in StrictMode initial mount
-      if (mountedRef.current === false) {
-        mountedRef.current = true;
-      }
-
-      // fetch initially
-      computeAndFetch();
-
-      // poll every 30 seconds
-      intervalRef.current = setInterval(computeAndFetch, 30000);
-
-      return () => {
-        if (intervalRef.current) clearInterval(intervalRef.current);
-      };
-      // eslint-disable-next-line react-hooks/exhaustive-deps
-    }, [games]); // re-run whenever games list changes
-
-    // Render a single card (same UI as original)
-    const Card = ({ card }) => {
-      const showWaiting = !card.latestResult;
-      return (
-        <section className="circlebox2">
-          <div>
-            <div className="sattaname">
-              <p style={{ margin: 0 }}>{card.name || "—"}</p>
-            </div>
-            <div className="sattaresult">
-              <p style={{ margin: 0, padding: 0 }}>
-                <span style={{ letterSpacing: 4 }}>
-                  {card.loading ? (
-                    "--"
-                  ) : showWaiting ? (
-                    <img
-                      src="images/d.gif"
-                      alt="wait icon"
-                      height={50}
-                      width={50}
-                    />
-                  ) : (
-                    card.latestResult
-                  )}
-                </span>
-              </p>
-              <p
-                style={{
-                  margin: 0,
-                  fontSize: 14,
-                  marginTop: 5,
-                  fontWeight: "bold",
-                }}
-              >
-                <small style={{ color: "white" }}>{card.resultTime}</small>
-              </p>
-            </div>
-          </div>
-        </section>
-      );
-    };
-
+  // Card component same as before
+  const Card = ({ card }) => {
+    const showWaiting = !card.latestResult;
     return (
-      <div>
-        {/* Top card */}
-        <Card card={cards[0]} />
-        {/* Bottom card */}
-        <Card card={cards[1]} />
-      </div>
+      <section className="circlebox2">
+        <div>
+          <div className="sattaname"><p style={{ margin: 0 }}>{card.name}</p></div>
+          <div className="sattaresult">
+            <p style={{ margin: 0, padding: 0 }}>
+              <span style={{ letterSpacing: 4 }}>
+                {card.loading ? (
+                  "--"
+                ) : showWaiting ? (
+                  <img src="images/d.gif" alt="wait icon" height={50} width={50} />
+                ) : (
+                  card.latestResult
+                )}
+              </span>
+            </p>
+            <p style={{ margin: 0, fontSize: 14, marginTop: 5, fontWeight: "bold" }}>
+              <small style={{ color: "white" }}>
+                {card.resultTime}
+              </small>
+            </p>
+          </div>
+        </div>
+      </section>
     );
   };
+
+  return (
+    <div>
+      <Card card={cards[0]} />
+      <Card card={cards[1]} />
+      <Card card={cards[2]} />
+    </div>
+  );
+};
+
+
+
+
+
 
   return (
     <div>
