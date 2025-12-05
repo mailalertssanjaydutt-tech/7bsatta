@@ -168,7 +168,7 @@ const Privacypolicy = () => {
     </ul>
     <p>
       You may exercise these rights by contacting us at{" "}
-      <strong>support@a7satta.vip</strong>.
+      <strong>support@7asatta.com</strong>.
     </p>
     <h2>
       <strong>7. Third-Party Links</strong>
@@ -210,14 +210,14 @@ const Privacypolicy = () => {
       Policy or our data practices, please contact us:
     </p>
     <p>
-      📧 <strong>support@a7satta.vip</strong>
+      📧 <strong>support@7asatta.com</strong>
       <strong>
         <br />
       </strong>{" "}
       🌐
-      <a href="https://www.a7satta.vip/">
+      <a href="https://www.7asatta.com/">
         {" "}
-        <strong>https://www.a7satta.vip</strong>
+        <strong>https://www.7asatta.com</strong>
       </a>
     </p>
     <h2>
