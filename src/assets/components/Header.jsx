@@ -51,7 +51,7 @@ const Header = () => {
         <div className="row">
             <div className="col-md-12 text-center">
             <Link
-                title="A7 Satta"
+                title="7A Satta"
                 to="/"
                 className="blink"
                 style={{ display: "inline", opacity: "0.877126" }}

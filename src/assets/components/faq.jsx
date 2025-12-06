@@ -46,7 +46,7 @@ export default function FAQ() {
                 className={`question ${activeIndex === 1 ? "active" : ""}`}
                 onClick={() => toggleFAQ(1)}
               >
-                <span className="sr">02.</span> What is the significance of A7 Satta in the Satta King world?
+                <span className="sr">02.</span> What is the significance of 7A Satta in the Satta King world?
               </div>
               <div
                 className="answercont"
@@ -57,7 +57,7 @@ export default function FAQ() {
                 }}
               >
                 <div className="answer">
-                  A7 Satta is one of the best websites that offers verified Satta King results, historical charts, betting tips and a safe and private gambling services. It supports players through the publication of immediate results, new draw alerts, responsible gaming education and user data privacy. It’s old-established image appeals to both new and experienced gamblers aiming for a site that can offer them clear transparency.
+                  7A Satta is one of the best websites that offers verified Satta King results, historical charts, betting tips and a safe and private gambling services. It supports players through the publication of immediate results, new draw alerts, responsible gaming education and user data privacy. It’s old-established image appeals to both new and experienced gamblers aiming for a site that can offer them clear transparency.
                 </div>
               </div>
             </div>
@@ -68,7 +68,7 @@ export default function FAQ() {
                 className={`question ${activeIndex === 2 ? "active" : ""}`}
                 onClick={() => toggleFAQ(2)}
               >
-                <span className="sr">03.</span> How to play Satta King with A7 Satta?
+                <span className="sr">03.</span> How to play Satta King with 7A Satta?
               </div>
               <div
                 className="answercont"
@@ -79,7 +79,7 @@ export default function FAQ() {
                 }}
               >
                 <div className="answer">
-To play, players sign up at A7 Satta or its apps, choose a market, choose a number from 00 to 99 and bet as per bet type variations (single, Jodi or Panna). If the selected figure hits after a draw and it's matches with the result called on that market.
+To play, players sign up at 7A Satta or its apps, choose a market, choose a number from 00 to 99 and bet as per bet type variations (single, Jodi or Panna). If the selected figure hits after a draw and it's matches with the result called on that market.
                 </div>
               </div>
             </div>
@@ -129,7 +129,7 @@ To play, players sign up at A7 Satta or its apps, choose a market, choose a numb
                 }}
               >
                 <div className="answer">
-                  A7 Satta earlier announced official draw results on its website and push notifications immediately. Each market has an online results portal and specific timing as well. Results and patterns are archived as well, that players can check to decide their next bet on but they should make use of credible sources in order not to get deceived by scams.
+                  7A Satta earlier announced official draw results on its website and push notifications immediately. Each market has an online results portal and specific timing as well. Results and patterns are archived as well, that players can check to decide their next bet on but they should make use of credible sources in order not to get deceived by scams.
                 </div>
               </div>
             </div>
@@ -178,7 +178,7 @@ To play, players sign up at A7 Satta or its apps, choose a market, choose a numb
 					<b>Financial losses:</b> House odds are heavy.<br/>
 					<b>Addiction:</b> High-speed, high-reward gaming may contribute to gambling addiction.<br/>
 					<b>Liability:</b> Unregulated gambling is illegal.<br/>
-					<b>Cybersecurity or fraud:</b> Some websites are fake, without guaranteed payouts and protection of data. People must be sure of safety and privacy when it comes to playing on platforms such as A7 Satta.
+					<b>Cybersecurity or fraud:</b> Some websites are fake, without guaranteed payouts and protection of data. People must be sure of safety and privacy when it comes to playing on platforms such as 7A Satta.
                 </div>
               </div>
             </div>
@@ -200,7 +200,7 @@ To play, players sign up at A7 Satta or its apps, choose a market, choose a numb
                 }}
               >
                 <div className="answer">                  
-There are no fail-safe systems for wins since the result is random, players however rely on historical charts and past results tracking (such as the one shared by A7 Satta of 
+There are no fail-safe systems for wins since the result is random, players however rely on historical charts and past results tracking (such as the one shared by 7A Satta of 
 <b>‘Secret Powerball Technique’</b>) to identify a pattern. These tricks may make betting more entertaining, but nothings affects the odds. Gwsportal offers a few important guidelines stressed by seasoned platforms on responsible betting, not chasing losses and playing for fun and not an income.
 
                 </div>
@@ -212,7 +212,7 @@ There are no fail-safe systems for wins since the result is random, players howe
                 className={`question ${activeIndex === 8 ? "active" : ""}`}
                 onClick={() => toggleFAQ(8)}
               >
-                <span className="sr">09.</span> How does A7 Satta protect user safety, privacy and ensure responsible gaming?
+                <span className="sr">09.</span> How does 7A Satta protect user safety, privacy and ensure responsible gaming?
 
               </div>
               <div
@@ -224,7 +224,7 @@ There are no fail-safe systems for wins since the result is random, players howe
                 }}
               >
                 <div className="answer">                  
-A7 Satta user security first: encryption technology for the discreet verification of registered users and confidential treatment of personal data. On a regular basis, the platform shares advice about setting limits, identifying risk signals, taking breaks and seeking help if there is potential for gambling addiction. They also provide legal risk training and links to support services if required.
+7A Satta user security first: encryption technology for the discreet verification of registered users and confidential treatment of personal data. On a regular basis, the platform shares advice about setting limits, identifying risk signals, taking breaks and seeking help if there is potential for gambling addiction. They also provide legal risk training and links to support services if required.
 
                 </div>
               </div>
@@ -235,7 +235,7 @@ A7 Satta user security first: encryption technology for the discreet verificatio
                 className={`question ${activeIndex === 9 ? "active" : ""}`}
                 onClick={() => toggleFAQ(9)}
               >
-                <span className="sr">10.</span> What distinguishes A7 Satta's business partners, like A1 Satta and B7 Satta?
+                <span className="sr">10.</span> What distinguishes 7A Satta's business partners, like A1 Satta and B7 Satta?
 
               </div>
               <div
@@ -247,7 +247,7 @@ A7 Satta user security first: encryption technology for the discreet verificatio
                 }}
               >
                 <div className="answer">                  
-A1 Satta and B7 Satta are part of a reliable smart betting business model exchanging verified results, data analytics and player support with A7 Satta. Between them, they provide access to several markets, improve the transparency of draw results and promote a community who engage in responsible betting. Their joining of forces extends trust across platforms enabling the access to a larger market and an even bigger playerbase.
+A1 Satta and B7 Satta are part of a reliable smart betting business model exchanging verified results, data analytics and player support with 7A Satta. Between them, they provide access to several markets, improve the transparency of draw results and promote a community who engage in responsible betting. Their joining of forces extends trust across platforms enabling the access to a larger market and an even bigger playerbase.
 
                 </div>
               </div>

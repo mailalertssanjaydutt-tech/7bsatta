@@ -322,7 +322,7 @@ const UpcomingResults = ({ loadingInitial }) => {
             <div className="col-right">
               <div className="content">
                 <p>
-                  Welcome to A7 Satta, the most informative sike about SATTA
+                  Welcome to 7A Satta, the most informative sike about SATTA
                   KING. In this guide, you will find a complete overview of the
                   Satta King game, its history, gameplay style, leading markets
                   and what players need to know in order to play it safely and
@@ -450,7 +450,7 @@ const UpcomingResults = ({ loadingInitial }) => {
                   <p>
                     There is a separate website or portal for each market, where
                     players can go see the results, and players also use apps or
-                    websites like A7 Satta to get real-time updates.
+                    websites like 7A Satta to get real-time updates.
                   </p>
 
                   <h3>Understanding the Risks and Cautions</h3>
@@ -479,13 +479,13 @@ const UpcomingResults = ({ loadingInitial }) => {
                     fraud operators.
                   </p>
                   <p>
-                    At A7 Satta, we offer the counsel of verified fruits and
+                    At 7A Satta, we offer the counsel of verified fruits and
                     teachings; we do not support issue nor do get to tell that
                     you to issues.
                   </p>
 
-                  <h3>Role of Platforms Like A7 Satta</h3>
-                  <p>Platforms like A7 Satta are important because they:</p>
+                  <h3>Role of Platforms Like 7A Satta</h3>
+                  <p>Platforms like 7A Satta are important because they:</p>
                   <p>
                     <b>Verified Results:</b> Fast, instant publishing of lottery
                     draw results to reduce misinformation.
@@ -531,7 +531,7 @@ const UpcomingResults = ({ loadingInitial }) => {
                     Satta king is still a game of luck for the people across
                     India. It may be entertaining and have the potential for
                     monetary rewards but it should always be played responsibly,
-                    informed, and with a level head. ABOUT US A7 Satta is run
+                    informed, and with a level head. ABOUT US 7A Satta is run
                     and managed by the best satta company in India, with an
                     experience of 40 long years.
                   </p>

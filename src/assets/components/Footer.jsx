@@ -20,7 +20,7 @@ const Footer = () => {
     <div className="container">
       <div className="row">
         <div className="col-md-12 text-center">
-          <strong>©️ 2025 A7 Satta All Rights Reserved</strong>
+          <strong>©️ 2025 7A Satta All Rights Reserved</strong>
         </div>
       </div>
     </div>
@@ -33,7 +33,7 @@ const Footer = () => {
             <li
               style={{ color: "rgb(255, 216, 0)", padding: 0, fontWeight: 700 }}
             >
-              !! DISCLAIMER - A7 Satta is a non-commercial informational
+              !! DISCLAIMER - 7A Satta is a non-commercial informational
               website. Please view this site at your own risk, All The
               Information Shown On Website Is Sponsored And We Warn You That
               satta matka Gambling/Satta May Be Banned Or Illegal In Your
