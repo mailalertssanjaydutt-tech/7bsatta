@@ -274,11 +274,11 @@ const Termsconditions = () => {
         Conditions, please contact:{" "}
       </p>
       <p>
-        📧 support@7asatta.com
+        📧 support@7Asatta.com
         <br /> 🌐
-        <a href="https://www.7asatta.com/">
+        <a href="https://www.7Asatta.com/">
           {" "}
-          <strong>https://www.7asatta.com</strong>
+          <strong>https://www.7Asatta.com</strong>
         </a>
       </p>
     </div>

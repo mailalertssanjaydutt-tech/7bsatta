@@ -30,7 +30,7 @@ const Chart = () => {
             <div className="col-md-12 text-center">
               <div className="liveresult">
                 <h1 className="hintext2">
-                  7asatta provides all kind of satta king results everyday.
+                  7Asatta provides all kind of satta king results everyday.
                 </h1>
               </div>
             </div>

@@ -37,7 +37,7 @@ const Header = () => {
             <div className="text_slide">
             <marquee style={{ color: "#fff" }}>
                 <p style={{ fontSize: 16, textAlign: "center" }}>
-                7asatta is an information portal which keep satta king player
+                7A satta is an information portal which keep satta king player
                 updated by providing real-time satta king results for gali satta ,
                 faridabad satta and ghaziabad satta.
                 </p>
@@ -56,7 +56,7 @@ const Header = () => {
                 className="blink"
                 style={{ display: "inline", opacity: "0.877126" }}
             >
-                <h1 style={{ margin: 0, fontWeight: 700 }}>7asatta Official</h1>
+                <h1 style={{ margin: 0, fontWeight: 700 }}>7A satta Official</h1>
             </Link>
             </div>
         </div>
