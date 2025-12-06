@@ -51,10 +51,10 @@ const Contact = () => {
         <div className="container">
           <div className="row">
             <div className="col-md-12 text-center">
-              <h1>Contact 7A Satta</h1>
+              <h1>Contact 7B Satta</h1>
               <p>
                 Questions, feedback or support requests? Use the form below to
-                reach the 7A Satta team. We aim to respond to legitimate
+                reach the 7B Satta team. We aim to respond to legitimate
                 inquiries within 48 hours.
               </p>
             </div>

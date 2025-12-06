@@ -37,9 +37,8 @@ const Header = () => {
             <div className="text_slide">
             <marquee style={{ color: "#fff" }}>
                 <p style={{ fontSize: 16, textAlign: "center" }}>
-                7A satta is an information portal which keep satta king player
-                updated by providing real-time satta king results for gali satta ,
-                faridabad satta and ghaziabad satta.
+                7B Satta is an information portal that keeps Satta King players
+                updated with verified, real-time draw results and daily charts for markets like Gali, Faridabad and Ghaziabad.
                 </p>
             </marquee>
             </div>
@@ -51,12 +50,12 @@ const Header = () => {
         <div className="row">
             <div className="col-md-12 text-center">
             <Link
-                title="7A Satta"
+                title="7B Satta"
                 to="/"
                 className="blink"
                 style={{ display: "inline", opacity: "0.877126" }}
             >
-                <h1 style={{ margin: 0, fontWeight: 700 }}>7A satta Official</h1>
+                <h1 style={{ margin: 0, fontWeight: 700 }}>7B Satta Official</h1>
             </Link>
             </div>
         </div>

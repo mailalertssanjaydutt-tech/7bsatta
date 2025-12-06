@@ -34,7 +34,7 @@ export default function FAQ() {
                 }}
               >
                 <div className="answer">
-                  Satta King (also known as Satta Matka) is a numbers-based lottery game where players pick numbers from <b>00 to 99</b>. "Satta" refers to betting and "Matka" originally referred to the pot used to draw numbers. Over time this regional game evolved into multiple market draws across India. 7A Satta provides reliable information about results, market schedules and historical charts to help users follow draws responsibly.
+                  Satta King (also known as Satta Matka) is a numbers-based lottery game where players pick numbers from <b>00 to 99</b>. "Satta" refers to betting and "Matka" originally referred to the pot used to draw numbers. Over time this regional game evolved into multiple market draws across India. 7B Satta provides reliable information about results, market schedules and historical charts to help users follow draws responsibly.
                 </div>
               </div>
             </div>
@@ -45,7 +45,7 @@ export default function FAQ() {
                 className={`question ${activeIndex === 1 ? "active" : ""}`}
                 onClick={() => toggleFAQ(1)}
               >
-                <span className="sr">02.</span> What is the significance of 7A Satta in the Satta King world?
+                <span className="sr">02.</span> What is the significance of 7B Satta in the Satta King world?
               </div>
               <div
                 className="answercont"
@@ -56,7 +56,7 @@ export default function FAQ() {
                 }}
               >
                 <div className="answer">
-                  7A Satta publishes verified Satta King results, live draw alerts and historical charts. We focus on transparency, up-to-date market information and guidance about responsible play — helping both new and experienced users access accurate Satta King results and trend data.
+                  7B Satta publishes verified Satta King results, live draw alerts and historical charts. We focus on transparency, up-to-date market information and guidance about responsible play — helping both new and experienced users access accurate Satta King results and trend data.
                 </div>
               </div>
             </div>
@@ -67,7 +67,7 @@ export default function FAQ() {
                 className={`question ${activeIndex === 2 ? "active" : ""}`}
                 onClick={() => toggleFAQ(2)}
               >
-                <span className="sr">03.</span> How to play Satta King with 7A Satta?
+                <span className="sr">03.</span> How to play Satta King with 7B Satta?
               </div>
               <div
                 className="answercont"
@@ -78,7 +78,7 @@ export default function FAQ() {
                 }}
               >
                 <div className="answer">
-To play Satta King players typically choose a market and select numbers (00–99). Common bet types include single (Ank), pair (Jodi) and Panna (three-digit). 7A Satta provides market schedules and result updates; always confirm rules and legality in your jurisdiction before placing any bets.
+To play Satta King players typically choose a market and select numbers (00–99). Common bet types include single (Ank), pair (Jodi) and Panna (three-digit). 7B Satta provides market schedules and result updates; always confirm rules and legality in your jurisdiction before placing any bets.
                 </div>
               </div>
             </div>
@@ -128,7 +128,7 @@ To play Satta King players typically choose a market and select numbers (00–99
                 }}
               >
                 <div className="answer">
-                  7A Satta posts live draw results, archives historical charts and provides market timings. Use these verified archives and official result posts to research patterns and check past outcomes. Always rely on trusted sources to avoid scams or inaccurate information.
+                  7B Satta posts live draw results, archives historical charts and provides market timings. Use these verified archives and official result posts to research patterns and check past outcomes. Always rely on trusted sources to avoid scams or inaccurate information.
                 </div>
               </div>
             </div>
@@ -150,7 +150,7 @@ To play Satta King players typically choose a market and select numbers (00–99
                 }}
               >
                 <div className="answer">
-                  Laws for Satta King vary by jurisdiction. In many places unregulated betting is illegal and can carry penalties. Before participating, check your local laws and only use licensed, legal services where available. 7A Satta provides information for research and does not encourage illegal activities.
+                  Laws for Satta King vary by jurisdiction. In many places unregulated betting is illegal and can carry penalties. Before participating, check your local laws and only use licensed, legal services where available. 7B Satta provides information for research and does not encourage illegal activities.
 
                 </div>
               </div>
@@ -177,7 +177,7 @@ To play Satta King players typically choose a market and select numbers (00–99
                     <b>Financial loss:</b> Betting carries a high risk of losing money.<br/>
                     <b>Addiction:</b> Repeated play can lead to harmful gambling behaviour.<br/>
                     <b>Legal risk:</b> Unregulated gambling may be illegal in your area.<br/>
-                    <b>Fraud and security:</b> Use only reputable sources and protect personal data. 7A Satta emphasizes safe-play guidance and privacy best practices.
+                    <b>Fraud and security:</b> Use only reputable sources and protect personal data. 7B Satta emphasizes safe-play guidance and privacy best practices.
                 </div>
               </div>
             </div>
@@ -199,7 +199,7 @@ To play Satta King players typically choose a market and select numbers (00–99
                 }}
               >
                 <div className="answer">                  
-There are no guaranteed strategies to win — draws are random. Some players review historical charts and trends to make informed choices, but past results do not change future odds. 7A Satta recommends responsible play: set limits, avoid chasing losses and treat betting as entertainment, not income.
+There are no guaranteed strategies to win — draws are random. Some players review historical charts and trends to make informed choices, but past results do not change future odds. 7B Satta recommends responsible play: set limits, avoid chasing losses and treat betting as entertainment, not income.
 
                 </div>
               </div>
@@ -210,7 +210,7 @@ There are no guaranteed strategies to win — draws are random. Some players rev
                 className={`question ${activeIndex === 8 ? "active" : ""}`}
                 onClick={() => toggleFAQ(8)}
               >
-                <span className="sr">09.</span> How does 7A Satta protect user safety, privacy and ensure responsible gaming?
+                <span className="sr">09.</span> How does 7B Satta protect user safety, privacy and ensure responsible gaming?
 
               </div>
               <div
@@ -222,7 +222,7 @@ There are no guaranteed strategies to win — draws are random. Some players rev
                 }}
               >
                 <div className="answer">                  
-7A Satta prioritizes user privacy and security. We encourage safe-play practices, share resources on recognizing problem gambling, and provide links to support organizations where available. Protecting personal data and promoting responsible gaming are core parts of our service information.
+7B Satta prioritizes user privacy and security. We encourage safe-play practices, share resources on recognizing problem gambling, and provide links to support organizations where available. Protecting personal data and promoting responsible gaming are core parts of our service information.
 
                 </div>
               </div>
@@ -233,7 +233,7 @@ There are no guaranteed strategies to win — draws are random. Some players rev
                 className={`question ${activeIndex === 9 ? "active" : ""}`}
                 onClick={() => toggleFAQ(9)}
               >
-                <span className="sr">10.</span> What distinguishes 7A Satta's business partners, like A1 Satta and B7 Satta?
+                <span className="sr">10.</span> What distinguishes 7B Satta's business partners, like A1 Satta and B7 Satta?
 
               </div>
               <div
@@ -245,7 +245,7 @@ There are no guaranteed strategies to win — draws are random. Some players rev
                 }}
               >
                 <div className="answer">                  
-Partner sites and market operators often share results and analytics that contribute to broader transparency across draws. At 7A Satta we highlight verified sources and recommended partner pages to help users find accurate market information and reliable result archives.
+Partner sites and market operators often share results and analytics that contribute to broader transparency across draws. At 7B Satta we highlight verified sources and recommended partner pages to help users find accurate market information and reliable result archives.
 
                 </div>
               </div>

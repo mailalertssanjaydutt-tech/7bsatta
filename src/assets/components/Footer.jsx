@@ -20,7 +20,7 @@ const Footer = () => {
     <div className="container">
       <div className="row">
         <div className="col-md-12 text-center">
-          <strong>©️ 2025 7A Satta All Rights Reserved</strong>
+          <strong>©️ 2025 7B Satta All Rights Reserved</strong>
         </div>
       </div>
     </div>
@@ -33,7 +33,7 @@ const Footer = () => {
             <li
               style={{ color: "rgb(255, 216, 0)", padding: 0, fontWeight: 700 }}
             >
-              Disclaimer: 7A Satta provides informational content about Satta
+              Disclaimer: 7B Satta provides informational content about Satta
               King results, charts and market data. This site does not
               facilitate gambling or betting services. Laws around Satta Matka
               and related betting vary by jurisdiction — please check local

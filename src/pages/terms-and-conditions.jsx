@@ -17,7 +17,7 @@ const Termsconditions = () => {
     <div className="rw">
       <h2>1. Acceptance of Terms</h2>
       <p>
-        By accessing or using 7A Satta you agree to these Terms & Conditions
+        By accessing or using 7B Satta you agree to these Terms & Conditions
         and confirm you are of legal age to view content in your jurisdiction.
       </p>
       <p>
@@ -73,7 +73,7 @@ const Termsconditions = () => {
     <div className="rw">
       <h2>4. Intellectual Property Rights</h2>
       <p>
-        Content on 7A Satta (text, images, logos, charts and code) is owned or
+        Content on 7B Satta (text, images, logos, charts and code) is owned or
         licensed by the Site and is protected by intellectual property laws.
       </p>
       <p>You may not:</p>
@@ -169,7 +169,7 @@ const Termsconditions = () => {
     <div className="rw">
       <h2>10. No Gambling or Betting Services</h2>
       <p>
-        7A Satta provides informational content about results and charts only.
+        7B Satta provides informational content about results and charts only.
         We do not operate a gambling service or accept bets. Users must comply
         with local laws when using information from this Site.
       </p>
@@ -213,10 +213,10 @@ const Termsconditions = () => {
         For questions about these Terms, please contact our support team:
       </p>
       <p>
-        📧 <strong>support@7Asatta.com</strong>
+        📧 <strong>support@7Bsatta.com</strong>
         <br /> 🌐
-        <a href="https://www.7Asatta.com/">
-          <strong>https://www.7Asatta.com</strong>
+        <a href="https://www.7Bsatta.com/">
+          <strong>https://www.7Bsatta.com</strong>
         </a>
       </p>
     </div>

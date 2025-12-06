@@ -30,8 +30,12 @@ const Chart = () => {
             <div className="col-md-12 text-center">
               <div className="liveresult">
                 <h1 className="hintext2">
-                  7Asatta provides all kind of satta king results everyday.
+                  7B Satta — Verified Satta King Results & Daily Charts
                 </h1>
+                <p style={{ marginTop: 8 }}>
+                  Real-time Satta King results, historical charts and market
+                  timings to help players research trends and follow draws.
+                </p>
               </div>
             </div>
           </div>

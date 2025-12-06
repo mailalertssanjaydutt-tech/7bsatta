@@ -154,7 +154,7 @@ const Privacypolicy = () => {
     </h2>
     <p>
       Where applicable, you may request access, correction, deletion or
-      restriction of your personal data. Email requests to support@7Asatta.com
+      restriction of your personal data. Email requests to support@7Bsatta.com
       and we will respond according to local law.
     </p>
     <ul>
@@ -165,7 +165,7 @@ const Privacypolicy = () => {
     </ul>
     <p>
       You may exercise these rights by contacting us at{" "}
-      <strong>support@7Asatta.com</strong>.
+      <strong>support@7Bsatta.com</strong>.
     </p>
     <h2>
       <strong>7. Third-Party Links</strong>
@@ -206,10 +206,10 @@ const Privacypolicy = () => {
       For privacy questions or data requests, contact our privacy team at:
     </p>
     <p>
-      📧 <strong>support@7Asatta.com</strong>
+      📧 <strong>support@7Bsatta.com</strong>
       <br /> 🌐
-      <a href="https://www.7Asatta.com/">
-        <strong>https://www.7Asatta.com</strong>
+      <a href="https://www.7Bsatta.com/">
+        <strong>https://www.7Bsatta.com</strong>
       </a>
     </p>
     <h2>

@@ -115,11 +115,12 @@ const UpcomingResults = ({ loadingInitial }) => {
                   card.latestResult
                 )}
               </span>
-            </p>
-            <p style={{ margin: 0, fontSize: 14, marginTop: 5, fontWeight: "bold" }}>
-              <small style={{ color: "white" }}>
-                {card.resultTime}
-              </small>
+                  <p>
+                    Each market often has its own result portal. Many players
+                    rely on trusted apps and websites like 7B Satta for
+                    accurate, real-time draw updates and archived charts to
+                    research trends.
+                  </p>
             </p>
           </div>
         </div>
@@ -314,14 +315,14 @@ const UpcomingResults = ({ loadingInitial }) => {
             <div className="col-left">
               <div className="text-left2">
                 <h1>
-                  7A Satta — Trusted Satta King Results, Charts & Market Guides
+                  7B Satta — Trusted Satta King Results, Charts & Market Guides
                 </h1>
               </div>
             </div>
             <div className="col-right">
               <div className="content">
                 <p>
-                  Welcome to 7A Satta — your dependable source for verified
+                  Welcome to 7B Satta — your dependable source for verified
                   Satta King results, historical charts and market timings. We
                   provide clear result updates, trend analysis and responsible
                   play guidance so users can research markets with confidence.
@@ -335,8 +336,6 @@ const UpcomingResults = ({ loadingInitial }) => {
                   usually means betting or gambling and <b>“King”</b> is the
                   term which refers to the person who gets triumph in a match.
                 </p>
-
-                {/* ... the rest remains unchanged ... */}
 
                 <Readmore>
                   <p>
@@ -448,7 +447,7 @@ const UpcomingResults = ({ loadingInitial }) => {
                   <p>
                     There is a separate website or portal for each market, where
                     players can go see the results, and players also use apps or
-                    websites like 7A Satta to get real-time updates.
+                    websites like 7B Satta to get real-time updates.
                   </p>
 
                   <h3>Understanding the Risks and Cautions</h3>
@@ -477,35 +476,34 @@ const UpcomingResults = ({ loadingInitial }) => {
                     fraud operators.
                   </p>
                   <p>
-                    At 7A Satta, we offer the counsel of verified fruits and
-                    teachings; we do not support issue nor do get to tell that
-                    you to issues.
+                    At 7B Satta we publish verified results, maintain historical
+                    charts, and provide responsible-play guidance. Our content
+                    is informational — we do not operate a betting service and
+                    encourage users to check local laws before participating in
+                    any gambling activity.
                   </p>
 
-                  <h3>Role of Platforms Like 7A Satta</h3>
-                  <p>Platforms like 7A Satta are important because they:</p>
+                  <h3>Role of Platforms Like 7B Satta</h3>
+                  <p>Platforms like 7B Satta help players by providing:</p>
                   <p>
-                    <b>Verified Results:</b> Fast, instant publishing of lottery
-                    draw results to reduce misinformation.
+                    <b>Verified Results:</b> Immediate, verified draw results to
+                    reduce misinformation and confusion.
                   </p>
                   <p>
-                    <b>Historical Data:</b> The Secret Powerball Technique also
-                    give players access to the archived winning numbers from
-                    previous drawings, and charts that allow them see the
-                    winning patterns.
+                    <b>Historical Data:</b> Searchable archives and charts that
+                    support trend analysis and informed decision-making.
                   </p>
                   <p>
-                    <b>Real-time Push Alerts:</b> You will never miss a single
-                    point, game or set in tennis; now it is up to you!
+                    <b>Real-time Alerts:</b> Timely notifications and live
+                    updates so users don’t miss important draws.
                   </p>
                   <p>
-                    <b>Player Education:</b> Providing tips, strategies and
-                    responsible gaming information so players can make informed
-                    decisions.
+                    <b>Player Education:</b> Guidance on responsible play and
+                    how to interpret market charts and results.
                   </p>
                   <p>
-                    <b>Privacy and Security Assured:</b> All user data is kept
-                    confidential and protected from abuse.
+                    <b>Privacy & Security:</b> Best practices for protecting user
+                    data and privacy when accessing result information.
                   </p>
 
                   <h3>Tips for Responsible Engagement</h3>
@@ -529,7 +527,7 @@ const UpcomingResults = ({ loadingInitial }) => {
                     Satta king is still a game of luck for the people across
                     India. It may be entertaining and have the potential for
                     monetary rewards but it should always be played responsibly,
-                    informed, and with a level head. ABOUT US 7A Satta is run
+                    informed, and with a level head. ABOUT US 7B Satta is run
                     and managed by the best satta company in India, with an
                     experience of 40 long years.
                   </p>
