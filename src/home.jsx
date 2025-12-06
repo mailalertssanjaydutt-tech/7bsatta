@@ -115,12 +115,11 @@ const UpcomingResults = ({ loadingInitial }) => {
                   card.latestResult
                 )}
               </span>
-                  <p>
-                    Each market often has its own result portal. Many players
-                    rely on trusted apps and websites like 7B Satta for
-                    accurate, real-time draw updates and archived charts to
-                    research trends.
-                  </p>
+            </p>
+            <p style={{ margin: 0, fontSize: 14, marginTop: 5, fontWeight: "bold" }}>
+              <small style={{ color: "white" }}>
+                {card.resultTime}
+              </small>
             </p>
           </div>
         </div>
@@ -136,11 +135,6 @@ const UpcomingResults = ({ loadingInitial }) => {
     </div>
   );
 };
-
-
-
-
-
 
   return (
     <div>
