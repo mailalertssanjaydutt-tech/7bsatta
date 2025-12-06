@@ -47,13 +47,23 @@ const Contact = () => {
   return (
     <div>
       <Toaster position="top-right" />
+      <section className="contact-intro" style={{ padding: "1rem 0" }}>
+        <div className="container">
+          <div className="row">
+            <div className="col-md-12 text-center">
+              <h1>Contact 7A Satta</h1>
+              <p>
+                Questions, feedback or support requests? Use the form below to
+                reach the 7A Satta team. We aim to respond to legitimate
+                inquiries within 48 hours.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
       <section className="contact-fsection">
         <div className="container">
           <div className="contact_form">
-            <p>
-              To book in your free discovery session and audit, call 123 456 7890 or
-              send us a message below.
-            </p>
             <form className="form" onSubmit={handleSubmit}>
               <div className="rows">
                 <div className="rw-in">

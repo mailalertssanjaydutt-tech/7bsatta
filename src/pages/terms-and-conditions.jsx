@@ -8,7 +8,7 @@ const Termsconditions = () => {
     <div className="container">
       <div className="row">
         <div className="col-md-12 text-center">
-          <h1 style={{ textTransform: "uppercase" }}>terms and conditions</h1>
+          <h1 style={{ textTransform: "uppercase" }}>Terms & Conditions</h1>
         </div>
       </div>
     </div>
@@ -17,39 +17,26 @@ const Termsconditions = () => {
     <div className="rw">
       <h2>1. Acceptance of Terms</h2>
       <p>
-        By using this Site, you confirm that you are at least 18 years old and
-        have the legal capacity to enter into this agreement.
+        By accessing or using 7A Satta you agree to these Terms & Conditions
+        and confirm you are of legal age to view content in your jurisdiction.
       </p>
       <p>
-        If you do not agree with these Terms or any part thereof, you must
-        discontinue use of the Site immediately.
-      </p>
-      <p>
-        Access to and use of the Site are conditional upon your full acceptance
-        and compliance with these Terms and any applicable laws or regulations.
+        If you do not agree with these Terms, please stop using the Site.
       </p>
     </div>
     <div className="rw">
       <h2>2. Modification of Terms</h2>
       <p>
-        We reserve the right to modify, update, or replace these Terms at any
-        time without prior notice.
-      </p>
-      <p>Changes will take effect immediately upon posting.</p>
-      <p>
-        By continuing to use the Site after revisions are published, you accept
-        and agree to the updated Terms.{" "}
-      </p>
-      <p>
-        We recommend checking this page regularly to stay informed of any
-        modifications.
+        We may update these Terms periodically. Changes become effective when
+        posted on this page. Continued use of the Site after posting signifies
+        acceptance of the revised Terms.
       </p>
     </div>
     <div className="rw">
       <h2>3. Eligibility and User Responsibilities</h2>
       <p>
-        You agree to use the Site for lawful purposes only and in compliance
-        with all applicable laws, regulations, and guidelines.{" "}
+        Use of this Site is for lawful, informational purposes only. You must
+        follow applicable laws and not misuse site content.
       </p>
       <p>You must not:</p>
       <ul>
@@ -86,11 +73,9 @@ const Termsconditions = () => {
     <div className="rw">
       <h2>4. Intellectual Property Rights</h2>
       <p>
-        All materials, including text, graphics, images, logos, designs, and
-        software available on the Site, are protected by copyright, trademark,
-        and other intellectual property laws.
+        Content on 7A Satta (text, images, logos, charts and code) is owned or
+        licensed by the Site and is protected by intellectual property laws.
       </p>
-      <p>All rights are reserved by the Site owner unless otherwise stated.</p>
       <p>You may not:</p>
       <ul>
         <li>
@@ -113,16 +98,8 @@ const Termsconditions = () => {
     <div className="rw">
       <h2>5. Privacy and Data Protection </h2>
       <p>
-        Your use of the Site is governed by our Privacy Policy, which outlines
-        how we collect, use, and protect your personal information.{" "}
-      </p>
-      <p>
-        We are committed to safeguarding your privacy and ensuring compliance
-        with applicable data protection laws.
-      </p>
-      <p>
-        By using the Site, you consent to the data practices described in the
-        Privacy Policy.
+        Our Privacy Policy explains how we collect and use data. By using the
+        Site you consent to the practices described in our Privacy Policy.
       </p>
     </div>
     <div className="rw">
@@ -151,33 +128,10 @@ const Termsconditions = () => {
     </div>
     <div className="rw">
       <h2>7. Disclaimer of Warranties</h2>
-      <p />
-      The Site and all its content are provided on an “as is” and “as available”
-      basis without any warranties of any kind.
-      <p />
-      <p />
-      We make no representations or guarantees that:
-      <p />
-      <ul>
-        <li>The Site will be uninterrupted, secure, or error-free;</li>
-        <li>The information provided is accurate, complete, or up to date;</li>
-        <li>
-          Any defects will be corrected, or the Site will remain available at
-          all times.{" "}
-        </li>
-      </ul>
       <p>
-        To the fullest extent permitted by law, we disclaim all implied
-        warranties, including but not limited to:
-      </p>
-      <ul>
-        <li>Merchantability,</li>
-        <li>Fitness for a particular purpose, and</li>
-        <li>Non-infringement. </li>
-      </ul>
-      <p>
-        If you rely on any information obtained from the Site, you do so at your
-        own risk.
+        Content on this Site is provided "as is" without any express or
+        implied warranties. We cannot guarantee accuracy, completeness, or
+        uninterrupted access. Use the information at your own risk.
       </p>
     </div>
     <div className="rw">
@@ -215,19 +169,9 @@ const Termsconditions = () => {
     <div className="rw">
       <h2>10. No Gambling or Betting Services</h2>
       <p>
-        The Site is strictly for informational and educational purposes only.
-      </p>
-      <p>
-        We do not promote or facilitate online gambling, betting, or wagering in
-        any form.{" "}
-      </p>
-      <p>
-        Any references to gaming results, statistics, or outcomes are purely
-        informational.
-      </p>
-      <p>
-        Users are responsible for ensuring compliance with local laws and
-        regulations related to gaming or betting.{" "}
+        7A Satta provides informational content about results and charts only.
+        We do not operate a gambling service or accept bets. Users must comply
+        with local laws when using information from this Site.
       </p>
     </div>
     <div className="rw">
@@ -242,12 +186,8 @@ const Termsconditions = () => {
     <div className="rw">
       <h2>12. Governing Law and Jurisdiction</h2>
       <p>
-        These Terms are governed by and construed in accordance with the laws of
-        India, without regard to conflict of law principles.
-      </p>
-      <p>
-        You agree that all disputes shall be subject to the exclusive
-        jurisdiction of the courts located within India.
+        These Terms are governed by the laws of India. Disputes will be
+        resolved in the courts within India to the extent permitted by law.
       </p>
     </div>
     <div className="rw">
@@ -270,14 +210,12 @@ const Termsconditions = () => {
     <div className="rw">
       <h2>15. Contact Information </h2>
       <p>
-        For any questions, feedback, or concerns related to these Terms and
-        Conditions, please contact:{" "}
+        For questions about these Terms, please contact our support team:
       </p>
       <p>
-        📧 support@7Asatta.com
+        📧 <strong>support@7Asatta.com</strong>
         <br /> 🌐
         <a href="https://www.7Asatta.com/">
-          {" "}
           <strong>https://www.7Asatta.com</strong>
         </a>
       </p>

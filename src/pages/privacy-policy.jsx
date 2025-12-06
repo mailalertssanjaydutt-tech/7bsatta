@@ -8,7 +8,7 @@ const Privacypolicy = () => {
     <div className="container">
       <div className="row">
         <div className="col-md-12 text-center">
-          <h1 style={{ textTransform: "uppercase" }}>privacy policy</h1>
+          <h1 style={{ textTransform: "uppercase" }}>Privacy Policy</h1>
         </div>
       </div>
     </div>
@@ -18,7 +18,8 @@ const Privacypolicy = () => {
       <strong>1. Information We Collect</strong>
     </h2>
     <p>
-      We may collect and process the following types of information from you:
+      We collect information you provide directly and technical data from your
+      visits to the Site to improve services and provide relevant content.
     </p>
     <h3>
       <strong>a. Personal Information</strong>
@@ -75,7 +76,10 @@ const Privacypolicy = () => {
     <h2>
       <strong>2. How We Use Your Information</strong>
     </h2>
-    <p>We may use the collected information for the following purposes:</p>
+    <p>
+      We use collected data to operate the Site, deliver content, respond to
+      inquiries, analyze usage and improve performance.
+    </p>
     <ul>
       <li>To operate, maintain, and improve the functionality of our Site</li>
       <li>
@@ -102,10 +106,9 @@ const Privacypolicy = () => {
       <strong>3. Disclosure of Information</strong>
     </h2>
     <p>
-      We do <strong>not</strong> sell, rent, or trade your personal information
-      to third parties.
-      <br /> We may share your information only under the following
-      circumstances:
+      We do <strong>not</strong> sell personal data. We may share information
+      with service providers, or when required by law, and always under
+      appropriate confidentiality measures.
     </p>
     <ul>
       <li>
@@ -141,24 +144,18 @@ const Privacypolicy = () => {
       <strong>5. Data Security</strong>
     </h2>
     <p>
-      We implement appropriate technical and organizational measures to
-      safeguard your information against:
-    </p>
-    <ul>
-      <li>Unauthorized access or disclosure</li>
-      <li>Alteration, loss, or destruction</li>
-    </ul>
-    <p>
-      While we strive to protect your data, please note that no online
-      transmission or storage system can be completely secure. Use of the Site
-      is at your own risk.
+      We use industry-standard technical and organizational safeguards to
+      protect data from unauthorized access, alteration, loss, or disclosure.
+      However, no system is infallible and absolute security cannot be
+      guaranteed.
     </p>
     <h2>
       <strong>6. Your Data Rights</strong>
     </h2>
     <p>
-      Depending on your jurisdiction, you may have certain rights regarding your
-      personal data, including the right to:
+      Where applicable, you may request access, correction, deletion or
+      restriction of your personal data. Email requests to support@7Asatta.com
+      and we will respond according to local law.
     </p>
     <ul>
       <li>Access and review the information we hold about you</li>
@@ -206,17 +203,12 @@ const Privacypolicy = () => {
       <strong>10. Contact Us</strong>
     </h2>
     <p>
-      If you have any questions, concerns, or requests regarding this Privacy
-      Policy or our data practices, please contact us:
+      For privacy questions or data requests, contact our privacy team at:
     </p>
     <p>
       📧 <strong>support@7Asatta.com</strong>
-      <strong>
-        <br />
-      </strong>{" "}
-      🌐
+      <br /> 🌐
       <a href="https://www.7Asatta.com/">
-        {" "}
         <strong>https://www.7Asatta.com</strong>
       </a>
     </p>

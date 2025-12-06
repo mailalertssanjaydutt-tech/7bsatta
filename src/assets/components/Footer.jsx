@@ -33,13 +33,13 @@ const Footer = () => {
             <li
               style={{ color: "rgb(255, 216, 0)", padding: 0, fontWeight: 700 }}
             >
-              !! DISCLAIMER - 7A Satta is a non-commercial informational
-              website. Please view this site at your own risk, All The
-              Information Shown On Website Is Sponsored And We Warn You That
-              satta matka Gambling/Satta May Be Banned Or Illegal In Your
-              Country. We Are Not Responsible For Any Issues Or Scam..., We
-              Respect All Country Rules/Laws... If You Not Agree With Our Site
-              disclaimer Please Quit Our Site Right Now. Thank You.
+              Disclaimer: 7A Satta provides informational content about Satta
+              King results, charts and market data. This site does not
+              facilitate gambling or betting services. Laws around Satta Matka
+              and related betting vary by jurisdiction — please check local
+              regulations before using any information on this site. We are
+              not liable for user actions or legal consequences arising from
+              use of the information. Use this site at your own risk.
             </li>
           </ul>
         </div>

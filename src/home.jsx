@@ -314,19 +314,17 @@ const UpcomingResults = ({ loadingInitial }) => {
             <div className="col-left">
               <div className="text-left2">
                 <h1>
-                  The Ultimate Guide to Satta King: Gambling Culture Nurtured In
-                  India and Its Impact on Society
+                  7A Satta — Trusted Satta King Results, Charts & Market Guides
                 </h1>
               </div>
             </div>
             <div className="col-right">
               <div className="content">
                 <p>
-                  Welcome to 7A Satta, the most informative sike about SATTA
-                  KING. In this guide, you will find a complete overview of the
-                  Satta King game, its history, gameplay style, leading markets
-                  and what players need to know in order to play it safely and
-                  responsibly.
+                  Welcome to 7A Satta — your dependable source for verified
+                  Satta King results, historical charts and market timings. We
+                  provide clear result updates, trend analysis and responsible
+                  play guidance so users can research markets with confidence.
                 </p>
                 <h2>What is Satta King?</h2>
                 <p>
