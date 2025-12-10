@@ -45,43 +45,87 @@ const Home = () => {
     navigate(`/${gameSlug}?year=${selectedYear}`);
   };
 
-const UpcomingResults = ({ loadingInitial }) => {
-  const [cards, setCards] = useState(
-    new Array(3).fill(null).map(() => ({ name: "", resultTime: "--", latestResult: null, minutesUntil: null, loading: true }))
-  );
+const UpcomingResults = () => {
+  const [cards, setCards] = useState([
+    { loading: true },
+    { loading: true },
+    { loading: true }
+  ]);
+
   const mountedRef = useRef(false);
-  const intervalRef = useRef(null);
   const controllerRef = useRef(null);
+  const intervalRef = useRef(null);
+
+  // Build 3-card layout
+  const formatCards = (recent, upcoming) => {
+    const final = [];
+
+    if (recent.length >= 2) {
+      // 2 recent + 1 upcoming
+      final.push(recent[0], recent[1]);
+      if (upcoming.length > 0) final.push(upcoming[0]);
+
+    } else if (recent.length === 1) {
+      // 1 recent + 2 upcoming
+      final.push(recent[0]);
+      final.push(...upcoming.slice(0, 2));
+
+    } else {
+      // No recent → all upcoming
+      final.push(...upcoming.slice(0, 3));
+    }
+
+    while (final.length < 3) {
+      final.push({
+        name: "--",
+        resultTime: "--",
+        latestResult: null,
+        loading: false
+      });
+    }
+
+    return final.slice(0, 3);
+  };
 
   const fetchOnce = async () => {
     try {
       if (controllerRef.current) controllerRef.current.abort();
       controllerRef.current = new AbortController();
-      const r = await api.get("/upcoming?limit=5", { signal: controllerRef.current.signal });
-      const data = r.data;
+
+      const r = await api.get("/upcoming", {
+        signal: controllerRef.current.signal
+      });
+
       if (!mountedRef.current) return;
 
-      if (Array.isArray(data.cards)) {
-        const mapped = data.cards.map(c => ({
-          name: c.name || "—",
-          resultTime: c.resultTime || "--",
-          latestResult: c.latestResult ?? null,
-          minutesUntil: c.minutesUntil ?? null,
-          loading: false
-        }));
-        // ensure exactly 3
-        while (mapped.length < 3) mapped.push({ name: "--", resultTime: "--", latestResult: null, minutesUntil: null, loading: false });
-        setCards(mapped.slice(0,3));
-      } else {
-        // fallback: clear
-        setCards(new Array(3).fill(null).map(() => ({ name: "--", resultTime: "--", latestResult: null, minutesUntil: null, loading: false })));
-      }
+      // Take correct fields from backend
+      const rawRecent = r.data.recentGames || [];
+      const rawUpcoming = r.data.upcomingGames || [];
+
+      // Map frontend fields
+      const recent = rawRecent.map(item => ({
+        name: item.name,
+        resultTime: item.resultTime,
+        latestResult: item.latestResult,
+        minutesUntil: 0,
+        loading: false
+      }));
+
+      const upcoming = rawUpcoming.map(item => ({
+        name: item.name,
+        resultTime: item.resultTime,
+        latestResult: item.latestResult,
+        minutesUntil: item.minutesUntil || null,
+        loading: false
+      }));
+
+      const finalCards = formatCards( upcoming,recent);
+
+      setCards(finalCards);
+
     } catch (err) {
-      if (err.name === "CanceledError" || err.name === "AbortError") {
-        // aborted; ignore
-      } else {
-        console.warn("Upcoming fetch failed", err);
-        // keep prior state or show fallback
+      if (err.name !== "AbortError") {
+        console.error("Fetch upcoming failed:", err);
       }
     }
   };
@@ -89,37 +133,37 @@ const UpcomingResults = ({ loadingInitial }) => {
   useEffect(() => {
     mountedRef.current = true;
     fetchOnce();
+
     intervalRef.current = setInterval(fetchOnce, 30000);
+
     return () => {
       mountedRef.current = false;
-      if (intervalRef.current) clearInterval(intervalRef.current);
       if (controllerRef.current) controllerRef.current.abort();
+      if (intervalRef.current) clearInterval(intervalRef.current);
     };
-  }, []); // no dependency on games; server makes decisions
+  }, []);
 
-  // Card component same as before
   const Card = ({ card }) => {
-    const showWaiting = !card.latestResult;
     return (
       <section className="circlebox2">
         <div>
-          <div className="sattaname"><p style={{ margin: 0 }}>{card.name}</p></div>
+          <div className="sattaname">
+            <p style={{ margin: 0 }}>{card.name}</p>
+          </div>
+
           <div className="sattaresult">
             <p style={{ margin: 0, padding: 0 }}>
               <span style={{ letterSpacing: 4 }}>
-                {card.loading ? (
-                  "--"
-                ) : showWaiting ? (
-                  <img src="images/d.gif" alt="wait icon" height={50} width={50} />
-                ) : (
-                  card.latestResult
-                )}
+                {card.loading
+                  ? "--"
+                  : card.latestResult == null
+                    ? <img src="images/d.gif" width={50} height={50} />
+                    : card.latestResult}
               </span>
             </p>
-            <p style={{ margin: 0, fontSize: 14, marginTop: 5, fontWeight: "bold" }}>
-              <small style={{ color: "white" }}>
-                {card.resultTime}
-              </small>
+
+            <p style={{ margin: 0, fontSize: 14, marginTop: 5 }}>
+              <small style={{ color: "white" }}>{card.resultTime}</small>
             </p>
           </div>
         </div>
@@ -129,12 +173,18 @@ const UpcomingResults = ({ loadingInitial }) => {
 
   return (
     <div>
-      <Card card={cards[0]} />
-      <Card card={cards[1]} />
-      <Card card={cards[2]} />
+      {cards.map((c, i) => <Card key={i} card={c} />)}
     </div>
   );
 };
+
+
+
+
+
+
+
+
 
   return (
     <div>
@@ -309,14 +359,14 @@ const UpcomingResults = ({ loadingInitial }) => {
             <div className="col-left">
               <div className="text-left2">
                 <h1>
-                  7B Satta — Trusted Satta King Results, Charts & Market Guides
+                  7A Satta — Trusted Satta King Results, Charts & Market Guides
                 </h1>
               </div>
             </div>
             <div className="col-right">
               <div className="content">
                 <p>
-                  Welcome to 7B Satta — your dependable source for verified
+                  Welcome to 7A Satta — your dependable source for verified
                   Satta King results, historical charts and market timings. We
                   provide clear result updates, trend analysis and responsible
                   play guidance so users can research markets with confidence.
@@ -330,6 +380,8 @@ const UpcomingResults = ({ loadingInitial }) => {
                   usually means betting or gambling and <b>“King”</b> is the
                   term which refers to the person who gets triumph in a match.
                 </p>
+
+                {/* ... the rest remains unchanged ... */}
 
                 <Readmore>
                   <p>
@@ -441,7 +493,7 @@ const UpcomingResults = ({ loadingInitial }) => {
                   <p>
                     There is a separate website or portal for each market, where
                     players can go see the results, and players also use apps or
-                    websites like 7B Satta to get real-time updates.
+                    websites like 7A Satta to get real-time updates.
                   </p>
 
                   <h3>Understanding the Risks and Cautions</h3>
@@ -470,34 +522,35 @@ const UpcomingResults = ({ loadingInitial }) => {
                     fraud operators.
                   </p>
                   <p>
-                    At 7B Satta we publish verified results, maintain historical
-                    charts, and provide responsible-play guidance. Our content
-                    is informational — we do not operate a betting service and
-                    encourage users to check local laws before participating in
-                    any gambling activity.
+                    At 7A Satta, we offer the counsel of verified fruits and
+                    teachings; we do not support issue nor do get to tell that
+                    you to issues.
                   </p>
 
-                  <h3>Role of Platforms Like 7B Satta</h3>
-                  <p>Platforms like 7B Satta help players by providing:</p>
+                  <h3>Role of Platforms Like 7A Satta</h3>
+                  <p>Platforms like 7A Satta are important because they:</p>
                   <p>
-                    <b>Verified Results:</b> Immediate, verified draw results to
-                    reduce misinformation and confusion.
+                    <b>Verified Results:</b> Fast, instant publishing of lottery
+                    draw results to reduce misinformation.
                   </p>
                   <p>
-                    <b>Historical Data:</b> Searchable archives and charts that
-                    support trend analysis and informed decision-making.
+                    <b>Historical Data:</b> The Secret Powerball Technique also
+                    give players access to the archived winning numbers from
+                    previous drawings, and charts that allow them see the
+                    winning patterns.
                   </p>
                   <p>
-                    <b>Real-time Alerts:</b> Timely notifications and live
-                    updates so users don’t miss important draws.
+                    <b>Real-time Push Alerts:</b> You will never miss a single
+                    point, game or set in tennis; now it is up to you!
                   </p>
                   <p>
-                    <b>Player Education:</b> Guidance on responsible play and
-                    how to interpret market charts and results.
+                    <b>Player Education:</b> Providing tips, strategies and
+                    responsible gaming information so players can make informed
+                    decisions.
                   </p>
                   <p>
-                    <b>Privacy & Security:</b> Best practices for protecting user
-                    data and privacy when accessing result information.
+                    <b>Privacy and Security Assured:</b> All user data is kept
+                    confidential and protected from abuse.
                   </p>
 
                   <h3>Tips for Responsible Engagement</h3>
@@ -521,7 +574,7 @@ const UpcomingResults = ({ loadingInitial }) => {
                     Satta king is still a game of luck for the people across
                     India. It may be entertaining and have the potential for
                     monetary rewards but it should always be played responsibly,
-                    informed, and with a level head. ABOUT US 7B Satta is run
+                    informed, and with a level head. ABOUT US 7A Satta is run
                     and managed by the best satta company in India, with an
                     experience of 40 long years.
                   </p>
