@@ -343,14 +343,14 @@ const UpcomingResults = () => {
             <div className="col-left">
               <div className="text-left2">
                 <h1>
-                  7A Satta — Trusted Satta King Results, Charts & Market Guides
+                  7B Satta — Trusted Satta King Results, Charts & Market Guides
                 </h1>
               </div>
             </div>
             <div className="col-right">
               <div className="content">
                 <p>
-                  Welcome to 7A Satta — your dependable source for verified
+                  Welcome to 7B Satta — your dependable source for verified
                   Satta King results, historical charts and market timings. We
                   provide clear result updates, trend analysis and responsible
                   play guidance so users can research markets with confidence.
@@ -477,7 +477,7 @@ const UpcomingResults = () => {
                   <p>
                     There is a separate website or portal for each market, where
                     players can go see the results, and players also use apps or
-                    websites like 7A Satta to get real-time updates.
+                    websites like 7B Satta to get real-time updates.
                   </p>
 
                   <h3>Understanding the Risks and Cautions</h3>
@@ -506,13 +506,13 @@ const UpcomingResults = () => {
                     fraud operators.
                   </p>
                   <p>
-                    At 7A Satta, we offer the counsel of verified fruits and
+                    At 7B Satta, we offer the counsel of verified fruits and
                     teachings; we do not support issue nor do get to tell that
                     you to issues.
                   </p>
 
-                  <h3>Role of Platforms Like 7A Satta</h3>
-                  <p>Platforms like 7A Satta are important because they:</p>
+                  <h3>Role of Platforms Like 7B Satta</h3>
+                  <p>Platforms like 7B Satta are important because they:</p>
                   <p>
                     <b>Verified Results:</b> Fast, instant publishing of lottery
                     draw results to reduce misinformation.
@@ -558,7 +558,7 @@ const UpcomingResults = () => {
                     Satta king is still a game of luck for the people across
                     India. It may be entertaining and have the potential for
                     monetary rewards but it should always be played responsibly,
-                    informed, and with a level head. ABOUT US 7A Satta is run
+                    informed, and with a level head. ABOUT US 7B Satta is run
                     and managed by the best satta company in India, with an
                     experience of 40 long years.
                   </p>
