@@ -58,7 +58,7 @@ const Header = () => {
                 className="blink"
                 style={{ display: "inline", opacity: "0.877126" }}
             >
-                <h1 style={{ margin: 0, fontWeight: 700 }}>7B Satta Official</h1>
+                <h1 style={{ margin: 0, fontWeight: 700 }}>7B Satta king Official</h1>
             </Link>
             </div>
         </div>
