@@ -36,9 +36,12 @@ const Header = () => {
             </div>
             <div className="text_slide">
             <marquee style={{ color: "#fff" }}>
-                <p style={{ fontSize: 16, textAlign: "center" }}>
+                {/* <p style={{ fontSize: 16, textAlign: "center" }}>
                 7B Satta is an information portal that keeps Satta King players
                 updated with verified, real-time draw results and daily charts for markets like Gali, Faridabad and Ghaziabad.
+                </p> */}
+                 <p className="hintext" style={{ padding: 0 }}>
+                  हा भाई यही आती हे सबसे पहले खबर रूको और देखो
                 </p>
             </marquee>
             </div>
