@@ -182,8 +182,8 @@ const UpcomingResults = ({ loadingInitial }) => {
   return (
     <div>
       <Card card={cards[2]} />
-      <Card card={cards[1]} />
       <Card card={cards[0]} />
+      <Card card={cards[1]} />
     </div>
   );
 };
