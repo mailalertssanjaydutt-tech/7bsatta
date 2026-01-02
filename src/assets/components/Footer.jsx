@@ -47,7 +47,11 @@ const Footer = () => {
     </div>
   </section>
 
-        <div class="support-icon"><a href="https://wa.me/8572063223"><img src="images/support-icon1.png" alt="support icon" /></a></div>
+        <div className="support-icon">
+          <button onClick={() => window.location.reload()}>
+            <img src="/images/reload-icon.png" alt="support icon" />
+          </button>
+        </div>
 </>
 
     </div>
@@ -55,3 +59,4 @@ const Footer = () => {
 }
 
 export default Footer
+
