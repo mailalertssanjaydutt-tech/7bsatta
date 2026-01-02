@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 
-import FAQ from "./assets/components/faq";
+//import FAQ from "./assets/components/faq";
 import Readmore from "./assets/components/Readmore";
 import Clock from "./pages/clock";
 import api from "./utils/api";
@@ -418,7 +418,8 @@ const UpcomingResults = ({ loadingInitial }) => {
       </section>
       <MonthlyGroupTable groupName="gr1" />
       <MonthlyGroupTable groupName="gr2" />
-      <section className="game-detail">
+     
+		{/* <section className="game-detail">
         <div className="containers">
           <div className="rowr">
             <div className="col-left">
@@ -448,7 +449,6 @@ const UpcomingResults = ({ loadingInitial }) => {
                   term which refers to the person who gets triumph in a match.
                 </p>
 
-                {/* ... the rest remains unchanged ... */}
 
                 <Readmore>
                   <p>
@@ -659,10 +659,11 @@ const UpcomingResults = ({ loadingInitial }) => {
         </div>
       </section>
 
-      <FAQ />
+      <FAQ /> */}
     </div>
   );
 };
 
 export default Home;
+
 
