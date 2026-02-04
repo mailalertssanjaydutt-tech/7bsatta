@@ -315,7 +315,7 @@ const UpcomingResults = ({ loadingInitial }) => {
   
 
       
-      <div
+		{/*<div
         style={{
           boxSizing: "border-box",
           position: "relative",
@@ -353,7 +353,7 @@ const UpcomingResults = ({ loadingInitial }) => {
             </h2>
           </div>
         </div>
-      </div>
+      </div>*/}
 
       
       <section className="octoberresultchart">
@@ -665,5 +665,6 @@ const UpcomingResults = ({ loadingInitial }) => {
 };
 
 export default Home;
+
 
 
