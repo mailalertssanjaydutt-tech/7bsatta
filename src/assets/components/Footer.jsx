@@ -48,9 +48,9 @@ const Footer = () => {
   </section>
 
         <div className="support-icon">
-          <button onClick={() => window.location.reload()}>
+          <a href="javascript:location.reload()">
             <img src="/images/reload-icon.png" alt="support icon" />
-          </button>
+          </a>
         </div>
 </>
 
@@ -59,4 +59,5 @@ const Footer = () => {
 }
 
 export default Footer
+
 
