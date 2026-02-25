@@ -588,12 +588,13 @@ const UpcomingResults = ({ loadingInitial }) => {
         </div>
       </section>
 
-      {/* <FAQ /> */}
+      <FAQ /> 
     </div>
   );
 };
 
 export default Home;
+
 
 
 
