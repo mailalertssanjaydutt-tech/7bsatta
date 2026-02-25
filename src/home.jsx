@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 
-//import FAQ from "./assets/components/faq";
+import FAQ from "./assets/components/faq";
 import Readmore from "./assets/components/Readmore";
 import Clock from "./pages/clock";
 import api from "./utils/api";
@@ -594,6 +594,7 @@ const UpcomingResults = ({ loadingInitial }) => {
 };
 
 export default Home;
+
 
 
 
