@@ -439,7 +439,8 @@ const UpcomingResults = ({ loadingInitial }) => {
 
 
                 <Readmore>
-                  <p>The best part about this game is that you can start with a small amount like ₹10 or ₹50. These days, many people play through apps or agents. If the number that you picked is matched, you could win many multiples of your original bet.</p>
+                  
+<p>The best part about this game is that you can start with a small amount like ₹10 or ₹50. These days, many people play through apps or agents. If the number that you picked is matched, you could win many multiples of your original bet.</p>
 
 <p>But it's ALL luck. Losing and gaining both have their share of luck in the outcomes, which is why it is always wise to spend money wisely and responsibly.</p>
 
@@ -535,21 +536,13 @@ const UpcomingResults = ({ loadingInitial }) => {
 
 <h2>The Risks: Play Smart, Not Safe</h2>
 
-<h3>Financial Endangerment</h3>
+<p>Financial Endangerment: Although the odds are against you, gambling should be entertainment; not get-rich-quick. Please gamble responsibly.</p>
 
-<p>Although the odds are against you, gambling should be entertainment; not get-rich-quick. Please gamble responsibly.</p>
+<p>The Addiction Potential: Fast pulls and big-win dreams can be addictive. To make it all fun, establish limits.</p>
 
-<h3>The Addiction Potential</h3>
+<p>Legal Grey Areas: It involves fines and is forbidden in much of India. Keep abreast on local legislation.</p>
 
-<p>Fast pulls and big-win dreams can be addictive. To make it all fun, establish limits.</p>
-
-<h3>Legal Grey Areas</h3>
-
-<p>It involves fines and is forbidden in much of India. Keep abreast on local legislation.</p>
-
-<h3>Scam Alert</h3>
-
-<p>Fraud is bred by criminal activity. Avoid con artists by ciphering up on reputable websites. The ability to make safer choices is derived from knowledge, not advertisement.</p>
+<p>Scam Alert: Fraud is bred by criminal activity. Avoid con artists by ciphering up on reputable websites. The ability to make safer choices is derived from knowledge, not advertisement.</p>
 
 <p>The authority to make safer decisions comes from knowledge, not promotion.</p>
 
@@ -565,25 +558,15 @@ const UpcomingResults = ({ loadingInitial }) => {
 
 <p>Satta is the king of sattaplay in the fast-paced universe of B7!</p>
 
-<h3>Ultra-Fast Live Results</h3>
+<p>Ultra-Fast Live Results: Timing is crucial in Satta. Because B7 Satta offers live results, you won't need to look elsewhere because you'll find all the results in one location.</p>
 
-<p>Timing is crucial in Satta. Because B7 Satta offers live results, you won't need to look elsewhere because you'll find all the results in one location.</p>
+<p>Simple Record Charts: B7 Satta offers satta king game record charts that let you predict the next number, see the game tricks ahead of time, and eliminate any losing chances.</p>
 
-<h3>Simple Record Charts</h3>
+<p>User-Friendly Interface: Both novices and experts can navigate the platform to view results, chart invites, and updates thanks to its user-friendly interface.</p>
 
-<p>B7 Satta offers satta king game record charts that let you predict the next number, see the game tricks ahead of time, and eliminate any losing chances.</p>
+<p>Reliability and Accuracy: B7 Satta consistently strives to be a daily OMG winner in an environment where many websites lack reliability.</p>
 
-<h3>User-Friendly Interface</h3>
-
-<p>Both novices and experts can navigate the platform to view results, chart invites, and updates thanks to its user-friendly interface.</p>
-
-<h3>Reliability and Accuracy</h3>
-
-<p>B7 Satta consistently strives to be a daily OMG winner in an environment where many websites lack reliability.</p>
-
-<h3>Security and Privacy</h3>
-
-<p>B7 Satta provides consumers with privacy while they view the findings thanks to robust security levels.</p>
+<p>Security and Privacy: B7 Satta provides consumers with privacy while they view the findings thanks to robust security levels.</p>
 
 <p>Being a market leader in the B7 satta matka industry, B7 Satta is not like other websites.</p>
 
@@ -591,17 +574,13 @@ const UpcomingResults = ({ loadingInitial }) => {
 
 <p>At B7 Satta, we demonstrate our support for our customers by giving them all the information they require to place wise wagers. We provide insights rather than just statistics.</p>
 
-<h3>Expert Pakad Jodi</h3>
+<p>Expert Pakad Jodi: Access premium "Pakad Jodi" posts from seasoned punters. These experts draw on years of experience and historical record charts to determine winning combinations.</p>
 
-<p>Access premium "Pakad Jodi" posts from seasoned punters. These experts draw on years of experience and historical record charts to determine winning combinations.</p>
 
-<h3>Rashi and Family Charts (1–100)</h3>
+<p>Rashi and Family Charts (1–100): Make use of our Rashi-based charts. [related] You can practise forecasting by using family numbers, Rashi patterns, and other similar occurrences.</p>
 
-<p>Make use of our Rashi-based charts. [related] You can practise forecasting by using family numbers, Rashi patterns, and other similar occurrences.</p>
-
-<h3>More Chance Of Winning</h3>
-
-<p>You will not only become the best fantasy player but a data-driven strategy will up your chances of winning.</p>
+<p>More Chance Of Winning: You will not only become the best fantasy player but a data-driven strategy will up your chances of winning.</p>
+					
                 </Readmore>
               </div>
             </div>
@@ -615,6 +594,7 @@ const UpcomingResults = ({ loadingInitial }) => {
 };
 
 export default Home;
+
 
 
 
