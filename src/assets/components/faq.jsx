@@ -23,7 +23,7 @@ export default function FAQ() {
                 className={`question ${activeIndex === 0 ? "active" : ""}`}
                 onClick={() => toggleFAQ(0)}
               >
-                <span className="sr">01.</span> What is Satta King and who started it?
+                <span className="sr">01.</span> What is Satta King and who developed it? 
               </div>
               <div
                 className="answercont"
@@ -34,8 +34,7 @@ export default function FAQ() {
                 }}
               >
                 <div className="answer">
-                  Satta King is a kind of lottery game based on numbers from 00 to 99 which comes under <b>"Gambling"</b>. The real name of this game in Satta Matka, in which 
-				  <b>"Satta"</b> means betting or gambling and <b>"Matka"</b> means a pot through which a number is drawn out. Over the decades, after official bans, it grew —disjointedly and very slowly — into Satta, a lottery-like game in which players bet on whether they can pick the correct numbers. Some mental bankettage explains why it cuts across India in distinct regional markets like Delhi, Disawar and Galion, each with its own legacy and timings.
+                  Common Satta King type lottery game under gambling The actual name of the game is Satta Matka, which is a form of gambling in which people are betting on a number chosen by pot. Satta, a lottery-type game in which players pick the winning numbers, was invented randomly over decades while banned by the state. This patchwork makes a tiered city, in which cosmopolitanism and Disawar and Gali eat some nights of the week or each have their own seasons as if they were regional markets with different histories that in some cases could be told through mental banking.
                 </div>
               </div>
             </div>
@@ -46,7 +45,7 @@ export default function FAQ() {
                 className={`question ${activeIndex === 1 ? "active" : ""}`}
                 onClick={() => toggleFAQ(1)}
               >
-                <span className="sr">02.</span> What is the significance of 7B Satta in the Satta King world?
+                <span className="sr">02.</span> Who is B7 Satta in the Satta King game?
               </div>
               <div
                 className="answercont"
@@ -57,7 +56,7 @@ export default function FAQ() {
                 }}
               >
                 <div className="answer">
-                  7B Satta is one of the best websites that offers verified Satta King results, historical charts, betting tips and a safe and private gambling services. It supports players through the publication of immediate results, new draw alerts, responsible gaming education and user data privacy. It’s old-established image appeals to both new and experienced gamblers aiming for a site that can offer them clear transparency.
+                  B7 Satta is among the best sites for actual Satta King results, records charts, online bets, and safe Satta betting sites. It provides gamers with a variety of services and support, such as real-time results, safe gaming rules, new draw warnings, and user data protection. Its solid reputation attracts both new and experienced gamblers searching for a website they can trust to offer transparency.
                 </div>
               </div>
             </div>
@@ -68,7 +67,7 @@ export default function FAQ() {
                 className={`question ${activeIndex === 2 ? "active" : ""}`}
                 onClick={() => toggleFAQ(2)}
               >
-                <span className="sr">03.</span> How to play Satta King with 7B Satta?
+                <span className="sr">03.</span> How can I play the Satta King with B7 Satta?
               </div>
               <div
                 className="answercont"
@@ -79,7 +78,7 @@ export default function FAQ() {
                 }}
               >
                 <div className="answer">
-To play, players sign up at 7B Satta or its apps, choose a market, choose a number from 00 to 99 and bet as per bet type variations (single, Jodi or Panna). If the selected figure hits after a draw and it's matches with the result called on that market.
+A player must first register on the B7 Satta app or website, choose a market, choose a number between 00 and 99, and then wager on a range of bet types (such as Single, Jodi, and Panna) in order to play. whether the amount selected matches what was announced on those markets and territories after the draw.
                 </div>
               </div>
             </div>
@@ -90,7 +89,7 @@ To play, players sign up at 7B Satta or its apps, choose a market, choose a numb
                 className={`question ${activeIndex === 3 ? "active" : ""}`}
                 onClick={() => toggleFAQ(3)}
               >
-                <span className="sr">04.</span> What are Satta King bets and their main payout ratios?
+                <span className="sr">04.</span> What are the main rates of payment for Satta King?
               </div>
               <div
                 className="answercont"
@@ -101,12 +100,13 @@ To play, players sign up at 7B Satta or its apps, choose a market, choose a numb
                 }}
               >
                 <div className="answer">
-					Common bet types include:<br/>
-				
-                <b>Ank:</b> Single:  bet to wager on any single digit between 0 and 9. <br/>
-				<b>Jodi (Pair):</b> a wager on two high or low digits (00–99); usually has the highest pay-out.<br/>
-				<b>Panna (Treble):</b> Bet on 3-digit combinations.<br/>
-				There are side bets and varied pay tables but these are the most popular. Payouts depend on the bet and market, but can be between 90 and 960 times the amount bet.
+					Typical kinds of wagers consist of:<br/>
+
+					<b>Ank (Single):</b> Bet on a single number between 0 and 9.<br/>
+<b>Jodi (Pair):</b> A pair is a wager that has two high or low numbers (00–99), and it is even used most often when the payout is beneficial.<br/>
+<b>Panna (Treble):</b> Bet on several figures with three digits.<br/>
+Pay tables and side bets are available, but I've only listed the most popular ones here. The maximum payments for each market and prediction could range from 90 to 960 times the wager.
+					
                 </div>
               </div>
             </div>
@@ -117,7 +117,7 @@ To play, players sign up at 7B Satta or its apps, choose a market, choose a numb
                 className={`question ${activeIndex === 4 ? "active" : ""}`}
                 onClick={() => toggleFAQ(4)}
               >
-                <span className="sr">05.</span> How can a player check the results to keep up with Satta King markets?
+                <span className="sr">05.</span> As a Satta King player, how can I monitor my Satta results? How can one be informed about any updates about the Satta King Bazaar?
 
               </div>
               <div
@@ -129,7 +129,7 @@ To play, players sign up at 7B Satta or its apps, choose a market, choose a numb
                 }}
               >
                 <div className="answer">
-                  7B Satta earlier announced official draw results on its website and push notifications immediately. Each market has an online results portal and specific timing as well. Results and patterns are archived as well, that players can check to decide their next bet on but they should make use of credible sources in order not to get deceived by scams.
+                  In addition to posting the official draw results on their website, B7 Satta promptly sponsored push alerts. Each market will have its own timestamp and online results page. Even though they can use algorithms and past performance to determine their bet, gamblers should select news from trustworthy sources to avoid being tricked.
                 </div>
               </div>
             </div>
@@ -139,7 +139,7 @@ To play, players sign up at 7B Satta or its apps, choose a market, choose a numb
                 className={`question ${activeIndex === 5 ? "active" : ""}`}
                 onClick={() => toggleFAQ(5)}
               >
-                <span className="sr">06.</span> What are the Satta King India Laws and regulations?
+                <span className="sr">06.</span> What rules does Satta King India have?
 
               </div>
               <div
@@ -151,7 +151,7 @@ To play, players sign up at 7B Satta or its apps, choose a market, choose a numb
                 }}
               >
                 <div className="answer">
-                  In most of the Indian states, which don’t host lotto, Satta King is considered illegal and a punishable criminal offense. Engaging in or aiding Satta betting, except by authorized agency or lotteries, can lead to penalization and imprisonment. Online Satta is risky, but it’s nevertheless widely available through the law gray—[subscribers/users] must personally check local laws for legality before playing.
+                  In states where the lottery has been outlawed, it is regarded as unlawful and criminal. The possibility of being punished is eliminated if one bets on a person or an organization while knowing their nature, as this would be deemed unlawful. Users should check their local laws and regulations regarding Satta gambling or betting, as Satta may be prohibited there, even though playing the game online is illegal in India according to some arbitrary law.
 
                 </div>
               </div>
@@ -162,7 +162,7 @@ To play, players sign up at 7B Satta or its apps, choose a market, choose a numb
                 className={`question ${activeIndex === 6 ? "active" : ""}`}
                 onClick={() => toggleFAQ(6)}
               >
-                <span className="sr">07.</span> What are the dangers of playing Satta King online and offline?
+                <span className="sr">07.</span> What are the dangers of playing Satta King online versus offline?
 
               </div>
               <div
@@ -174,11 +174,12 @@ To play, players sign up at 7B Satta or its apps, choose a market, choose a numb
                 }}
               >
                 <div className="answer">
-                  Key risks include:<br/>
-					<b>Financial losses:</b> House odds are heavy.<br/>
-					<b>Addiction:</b> High-speed, high-reward gaming may contribute to gambling addiction.<br/>
-					<b>Liability:</b> Unregulated gambling is illegal.<br/>
-					<b>Cybersecurity or fraud:</b> Some websites are fake, without guaranteed payouts and protection of data. People must be sure of safety and privacy when it comes to playing on platforms such as 7B Satta.
+					Important dangers consist of:<br/>
+<b>Money loss:</b> The house has a decent chance.<br/>
+<b>Addiction:</b> Playing fast-paced games with large prizes might make gambling addiction worse.<br/>
+<b>Liability:</b> Gambling continuously is prohibited by law.<br/>
+<b>Fake or cybersecurity:</b> Other websites appear on scam websites, and they make no guarantees regarding the safety of the money or data. People must have confidence in their privacy and safety when playing at places like B7 Satta.
+				
                 </div>
               </div>
             </div>
@@ -188,7 +189,7 @@ To play, players sign up at 7B Satta or its apps, choose a market, choose a numb
                 className={`question ${activeIndex === 7 ? "active" : ""}`}
                 onClick={() => toggleFAQ(7)}
               >
-                <span className="sr">08.</span> Are there any winning tricks for Satta King?
+                <span className="sr">08.</span> Which tactics can you use to win Satta King?
 
               </div>
               <div
@@ -200,8 +201,7 @@ To play, players sign up at 7B Satta or its apps, choose a market, choose a numb
                 }}
               >
                 <div className="answer">                  
-There are no fail-safe systems for wins since the result is random, players however rely on historical charts and past results tracking (such as the one shared by 7B Satta of 
-<b>‘Secret Powerball Technique’</b>) to identify a pattern. These tricks may make betting more entertaining, but nothings affects the odds. Gwsportal offers a few important guidelines stressed by seasoned platforms on responsible betting, not chasing losses and playing for fun and not an income.
+Players use historical charts and trends in past outcomes tracking provided by B7 Satta of the "Secret Powerball Technique" to try and predict patterns of the numbers that will be drawn, even though no approach is perfect. These strategies can improve your betting experience without altering the odds. Prominent suppliers place a strong emphasis on avoiding losses and gambling for pleasure rather than profit, two crucial recommendations that Gasportal offers to individuals who make moral wagers.
 
                 </div>
               </div>
@@ -212,7 +212,7 @@ There are no fail-safe systems for wins since the result is random, players howe
                 className={`question ${activeIndex === 8 ? "active" : ""}`}
                 onClick={() => toggleFAQ(8)}
               >
-                <span className="sr">09.</span> How does 7B Satta protect user safety, privacy and ensure responsible gaming?
+                <span className="sr">09.</span> How Does B7 Satta Guarantee Ethical Gaming and User Safety?
 
               </div>
               <div
@@ -224,7 +224,7 @@ There are no fail-safe systems for wins since the result is random, players howe
                 }}
               >
                 <div className="answer">                  
-7B Satta user security first: encryption technology for the discreet verification of registered users and confidential treatment of personal data. On a regular basis, the platform shares advice about setting limits, identifying risk signals, taking breaks and seeking help if there is potential for gambling addiction. They also provide legal risk training and links to support services if required.
+B7 Satta prioritises safeguarding our users' privacy by enabling encryption when necessary to maintain the confidentiality of their personal data and by more covertly checking it. The website frequently offers guidance on topics like setting boundaries, recognising warning signs of danger, taking breaks, and getting help if a gambling problem is suspected. They can also refer persons to military support services if necessary and offer legal risk education.
 
                 </div>
               </div>
@@ -235,7 +235,7 @@ There are no fail-safe systems for wins since the result is random, players howe
                 className={`question ${activeIndex === 9 ? "active" : ""}`}
                 onClick={() => toggleFAQ(9)}
               >
-                <span className="sr">10.</span> What distinguishes 7B Satta's business partners, like 7B Satta and 7B Satta?
+                <span className="sr">10.</span> What distinguishes B7 Satta from other business partners such as A1 Satta, A2 Satta, A3 Satta, A4 Satta, A7 Satta, A8 Satta, and Lucky Satta?
 
               </div>
               <div
@@ -247,7 +247,7 @@ There are no fail-safe systems for wins since the result is random, players howe
                 }}
               >
                 <div className="answer">                  
-7B Satta and 7B Satta are part of a reliable smart betting business model exchanging verified results, data analytics and player support with 7B Satta. Between them, they provide access to several markets, improve the transparency of draw results and promote a community who engage in responsible betting. Their joining of forces extends trust across platforms enabling the access to a larger market and an even bigger playerbase.
+A1 Satta, A2 Satta, A3 Satta, A4 Satta, A7 Satta, and A8 Satta Now that Lucky Satta is mentioned in the betting model, they share their player support and verification results analysis with you. When combined, they provide a range of markets, aid in increasing the transparency of draw results, and encourage ethical betting. When they tip together, they build cross-platform trust, which opens up new possibilities and competitors.
 
                 </div>
               </div>
@@ -261,4 +261,5 @@ There are no fail-safe systems for wins since the result is random, players howe
     </section>
   );
 }
+
 
