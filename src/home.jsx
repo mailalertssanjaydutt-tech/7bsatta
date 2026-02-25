@@ -435,7 +435,7 @@ const UpcomingResults = ({ loadingInitial }) => {
                 
 <h2>Satta King: What is it?</h2>
 
-<p>Satta King is not even a game, it is more of a numbers game that is based on the practice of betting. In this game, people bet on the 2 to 4 last digits of a randomly drawn number. “Satta” means betting or gambling, and “King” refers to whoever successfully bets on the winning number.</p>
+<p>Satta King is not even a game, it is more of a numbers game that is based on the practice of betting. In this game, people bet on the 2 to 4 last digits of a randomly drawn number. <b>“Satta”</b> means betting or gambling, and <b>“King”</b> refers to whoever successfully bets on the winning number.</p>
 
 
                 <Readmore>
@@ -450,13 +450,13 @@ const UpcomingResults = ({ loadingInitial }) => {
 
 <p>From 1950 until 1960, this system remained in place. However, the New York Cotton Exchange had "abolished" these rates by 1961. In order to find an alternative, they began searching.</p>
 
-<p>A jar or pitcher (matka) and slips of paper (parchis) were then used to draw the numbers, modernising the custom. This became well-known and was dubbed "satta king." Results began to be updated every day.</p>
+<p>A jar or pitcher (matka) and slips of paper (parchis) were then used to draw the numbers, modernising the custom. This became well-known and was dubbed <b>"satta king."</b> Results began to be updated every day.</p>
 
 <p>Since India was an underground country, players would look for a local khaiwal (bookie) in each city or town who would collect the slips and write the results on cement poles.</p>
 
 <p>Satta lottery is still illegal in the majority of India.</p>
 
-<p>Although the game is extensively played and the word "Satta" is quite well-known in India, it is prohibited by Indian law.</p>
+<p>Although the game is extensively played and the word <b>"Satta"</b> is quite well-known in India, it is prohibited by Indian law.</p>
 
 <h2>How to Play Satta King: A Comprehensive Step by Step Guide</h2>
 
@@ -476,7 +476,7 @@ const UpcomingResults = ({ loadingInitial }) => {
 
 <p>Match the drawn number? Congratulations! Payouts range from 90x your bet for straightforward wins to or over 960x for shrewd play such as full Pannas. Reputable sites pay out winnings instantly.</p>
 
-<p>Pro Tip: Be sure to check market times to avoid missing out. You will develop enough practice to recognize trends, but luck is what the fates prefer.</p>
+<p><b>Pro Tip:</b> Be sure to check market times to avoid missing out. You will develop enough practice to recognize trends, but luck is what the fates prefer.</p>
 
 <h2>What is Jodi, Crossing, Haruf in Satta King?</h2>
 
@@ -484,7 +484,7 @@ const UpcomingResults = ({ loadingInitial }) => {
 
 <p>The numbers 01 to 100 are known as jodi. You choose your own favourite lucky number and place a wager.</p>
 
-<p>Example: 11, 22, 33, 44, 55, 66, 77, 88,99 ,00 are Jodi.</p>
+<p><b>Example:</b> 11, 22, 33, 44, 55, 66, 77, 88,99 ,00 are Jodi.</p>
 
 <p>The numbers 1 through 10 are called munda.</p>
 
@@ -496,7 +496,7 @@ const UpcomingResults = ({ loadingInitial }) => {
 
 <p>Many players also play crossing. Crossing is constructed with three numbers and you can play around 3 to 8–9 numbers.</p>
 
-<p>Example: 123456 is a "6-number crossing".</p>
+<p><b>Example:</b> 123456 is a "6-number crossing".</p>
 
 <p>In this, 36 jodi are formed.</p>
 
@@ -506,7 +506,7 @@ const UpcomingResults = ({ loadingInitial }) => {
 
 <p>In his voice breaks and in bed, Haruf speaks of one number only.</p>
 
-<p>Example: 1 is a haruf.</p>
+<p><b>Example:</b> 1 is a haruf.</p>
 
 <p>If you play it, 10 jodi will be made.</p>
 
@@ -522,15 +522,15 @@ const UpcomingResults = ({ loadingInitial }) => {
 
 <p>Satta King has many types and forms, however all the markets are simply the same as large regionally related markets therefore, each individual market has its own unique pattern, crowd and beat. The following are the markets that we found to be the most interesting to us.</p>
 
-<p>Delhi Bazaar Satta: The veteran’s favourite, providing daily results that keep the Delhi gaming scene vibrant.</p>
+<p><b>Delhi Bazaar Satta:</b> The veteran’s favourite, providing daily results that keep the Delhi gaming scene vibrant.</p>
 
-<p>Disawar Satta: A midnight risk for the high rollers, famous for attracting a large number of players and its strong live draws.</p>
+<p><b>Disawar Satta:</b> A midnight risk for the high rollers, famous for attracting a large number of players and its strong live draws.</p>
 
-<p>Faridabad Satta: A rising star with a new face and trends chasing perfect for beginners.</p>
+<p><b>Faridabad Satta:</b> A rising star with a new face and trends chasing perfect for beginners.</p>
 
-<p>Ghaziabad Satta: Interactive and vibey with the real time offer.</p>
+<p><b>Ghaziabad Satta:</b> Interactive and vibey with the real time offer.</p>
 
-<p>Gali Satta: Out of nowhere and at unlikely hours, its draw is seducing night-owls across the country.</p>
+<p><b>Gali Satta:</b> Out of nowhere and at unlikely hours, its draw is seducing night-owls across the country.</p>
 
 <p>You can check specialised websites and apps, like B7 Satta, for real-time results. The online communities that Satta King creates, where participants exchange advice and celebrate victories, are the market that powers the company's social effect.</p>
 
@@ -538,35 +538,35 @@ const UpcomingResults = ({ loadingInitial }) => {
 
 <p>Financial Endangerment: Although the odds are against you, gambling should be entertainment; not get-rich-quick. Please gamble responsibly.</p>
 
-<p>The Addiction Potential: Fast pulls and big-win dreams can be addictive. To make it all fun, establish limits.</p>
+<p><b>The Addiction Potential:</b> Fast pulls and big-win dreams can be addictive. To make it all fun, establish limits.</p>
 
-<p>Legal Grey Areas: It involves fines and is forbidden in much of India. Keep abreast on local legislation.</p>
+<p><b>Legal Grey Areas:</b> It involves fines and is forbidden in much of India. Keep abreast on local legislation.</p>
 
-<p>Scam Alert: Fraud is bred by criminal activity. Avoid con artists by ciphering up on reputable websites. The ability to make safer choices is derived from knowledge, not advertisement.</p>
+<p><b>Scam Alert:</b> Fraud is bred by criminal activity. Avoid con artists by ciphering up on reputable websites. The ability to make safer choices is derived from knowledge, not advertisement.</p>
 
 <p>The authority to make safer decisions comes from knowledge, not promotion.</p>
 
 <h2>Platforms like B7 Satta's Function</h2>
 
-<p>B7 Satta is one of the oldest and most trusted market for “Satta Matka” results on the internet. Designed for the purpose of disseminating information quickly, correctly, and in an honest manner, our website attracts thousands of visitors every day, who are relied upon to keep them updated. We are committed to the Satta King category, publishing superfast results of all Satta King games on our website, and giving you correct results and updates very quickly in no time at https://www.7asatta.com.</p>
+<p>B7 Satta is one of the oldest and most trusted market for <b>“Satta Matka”</b> results on the internet. Designed for the purpose of disseminating information quickly, correctly, and in an honest manner, our website attracts thousands of visitors every day, who are relied upon to keep them updated. We are committed to the Satta King category, publishing superfast results of all Satta King games on our website, and giving you correct results and updates very quickly in no time at https://www.7asatta.com.</p>
 
-<p>On our website, we have a list of various games including the best markets such as Delhi Bazaar, Disawar, Gali, Ajmer Sarif, Ghaziabad, and Shree Ganesh, and also there are some regional games such as Golden City, Navi Mumbai, Sadar Bazaar, Cyber City Gurgaon, Paisa Bazaar, and many more. Each result is accompanied by a complete record, allowing one to view previous results and become a better predictor.</p>
+<p>On our website, we have a list of various games including the best markets such as <b>Delhi Bazaar, Disawar, Gali, Ajmer Sarif, Ghaziabad</b>, and <b>Shree Ganesh</b>, and also there are some regional games such as <b>Golden City, Navi Mumbai, Sadar Bazaar, Cyber City Gurgaon, Paisa Bazaar</b>, and many more. Each result is accompanied by a complete record, allowing one to view previous results and become a better predictor.</p>
 
-<p>Besides results, B7 Satta also provides “Pakad Jodi” numbers, Rashi charts, and expert advice shared by experienced players. Such community features allow visitors to benefit from observations and improve their plans. And the most important thing, we do not organize and promote gambling in any form - but are just some</p>
+<p>Besides results, B7 Satta also provides <b>“Pakad Jodi”</b> numbers, Rashi charts, and expert advice shared by experienced players. Such community features allow visitors to benefit from observations and improve their plans. And the most important thing, we do not organize and promote gambling in any form - but are just some</p>
 
 <h2>The B7 Satta Edge - How We Stay On Top of The Market</h2>
 
 <p>Satta is the king of sattaplay in the fast-paced universe of B7!</p>
 
-<p>Ultra-Fast Live Results: Timing is crucial in Satta. Because B7 Satta offers live results, you won't need to look elsewhere because you'll find all the results in one location.</p>
+<p><b>Ultra-Fast Live Results:</b> Timing is crucial in Satta. Because B7 Satta offers live results, you won't need to look elsewhere because you'll find all the results in one location.</p>
 
 <p>Simple Record Charts: B7 Satta offers satta king game record charts that let you predict the next number, see the game tricks ahead of time, and eliminate any losing chances.</p>
 
-<p>User-Friendly Interface: Both novices and experts can navigate the platform to view results, chart invites, and updates thanks to its user-friendly interface.</p>
+<p><b>User-Friendly Interface:</b> Both novices and experts can navigate the platform to view results, chart invites, and updates thanks to its user-friendly interface.</p>
 
-<p>Reliability and Accuracy: B7 Satta consistently strives to be a daily OMG winner in an environment where many websites lack reliability.</p>
+<p><b>Reliability and Accuracy:</b> B7 Satta consistently strives to be a daily OMG winner in an environment where many websites lack reliability.</p>
 
-<p>Security and Privacy: B7 Satta provides consumers with privacy while they view the findings thanks to robust security levels.</p>
+<p><b>Security and Privacy:</b> B7 Satta provides consumers with privacy while they view the findings thanks to robust security levels.</p>
 
 <p>Being a market leader in the B7 satta matka industry, B7 Satta is not like other websites.</p>
 
@@ -574,12 +574,12 @@ const UpcomingResults = ({ loadingInitial }) => {
 
 <p>At B7 Satta, we demonstrate our support for our customers by giving them all the information they require to place wise wagers. We provide insights rather than just statistics.</p>
 
-<p>Expert Pakad Jodi: Access premium "Pakad Jodi" posts from seasoned punters. These experts draw on years of experience and historical record charts to determine winning combinations.</p>
+<p><b>Expert Pakad Jodi:</b> Access premium "Pakad Jodi" posts from seasoned punters. These experts draw on years of experience and historical record charts to determine winning combinations.</p>
 
 
-<p>Rashi and Family Charts (1–100): Make use of our Rashi-based charts. [related] You can practise forecasting by using family numbers, Rashi patterns, and other similar occurrences.</p>
+<p><b>Rashi and Family Charts (1–100):</b> Make use of our Rashi-based charts. [related] You can practise forecasting by using family numbers, Rashi patterns, and other similar occurrences.</p>
 
-<p>More Chance Of Winning: You will not only become the best fantasy player but a data-driven strategy will up your chances of winning.</p>
+<p><b>More Chance Of Winning:</b> You will not only become the best fantasy player but a data-driven strategy will up your chances of winning.</p>
 					
                 </Readmore>
               </div>
@@ -594,6 +594,7 @@ const UpcomingResults = ({ loadingInitial }) => {
 };
 
 export default Home;
+
 
 
 
