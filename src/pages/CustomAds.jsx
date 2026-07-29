@@ -27,7 +27,7 @@ export default function TopAdsSection() {
   useEffect(() => {
     async function fetchAds() {
       try {
-        const res = await api.get("/ads");
+        const res = await api.get("/ads?site=7bsatta.com");
         const data = res.data;
 
         if (Array.isArray(data)) {
